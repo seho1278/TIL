@@ -1,14 +1,19 @@
-# **마크다운 문법에 대해서**
+# **마크다운 문법**
 
-> ## **Heading : 문서의 제목이나 소제목**
+## **Heading : 문서의 제목이나 소제목**
+---
 1. `#`의 개수에 따라 대응되는 수준(Heading level)이 있으며, h1 ~ h6까지 표현 가능하다.
+
 2. 문서의 구조를 위해 작성되며 **`글자 크기를 조절하기 위해 사용되어서는 안된다.`**
 
----
+<br>
 
-> ## **list : 목록**
+## **list : 목록**
+---
 1. 순서가 있는 리스트(ol)와 순서가 없는 리스트(ul)로 구성된다.
+
 2. Tab으로 하위 항목으로 구성할 수 있다. (나갈땐 `Shift + tab`)
+
 3. `Asterisk(*) Hyphen(-)` 을 통해서도 가능하다.
 
 ### **2~3번 적용 예시**
@@ -19,11 +24,15 @@
 * seconditem
   * second - 1
 
----
+<br>
 
->## **Fencen Code block : 코드 블록**
+## **Fencen Code block : 코드 블록**
+---
 1. 코드블록은 `backtick` `(```)` 기호 3개를 활용하여 작성이 가능하다.
+
 2. 코드 블록에 특정 언어를 명시하면 Syntax Highlighting 적용할 수 있다.
+
+<br>
 
 ### **적용 예시 (python 사용)**
 ```python
@@ -36,24 +45,28 @@ print('hello')
 <!-- 주석 -->
 ```
 
----
+<br>
 
-> ## **Inline Code block : 코드 블록**
+## **Inline Code block : 코드 블록**
+---
 1. 코드 블록은 `backtick` `(``)` 기호를 인라인에 활용하여 작성이 가능하다.
 
----
+<br>
 
-> ## **그 외 텍스트 강조**
+## **그 외 텍스트 강조**
+---
 1. Itaic(기울임) : 양쪽 끝에 `Asterisk(*) 또는 Underscores(_)`를 `한개씩 만` 두어 특정 글자들을 기울게 만들 수 있다.
+
 2. Bold(굵게) : 양쪽 끝에 `Asterisk(*) 또는 Underscores(_)`를 `두개씩` 두어 특정 글자들을 굵게 만들 수 있다. 
 
 ### **적용 예시**
 1. *italicized text*
 2. **bold text**
 
----
+<br>
 
-> ## **Link : 링크**
+## **Link : 링크**
+---
 1. `[문자열](url)`을 통해 링크 작성이 가능하다.
 2. **url** 자리에 **파일**이나 **폴더**를 입력해 불러올 수도 있다.
 
@@ -62,24 +75,27 @@ print('hello')
 
 [NAVER](https://naver.com)
 
----
+<br>
 
-> ## **image : 이미지**
+## **image : 이미지**
+---
 1. `![문자열](url)`을 통해 이미지를 사용할 수 있다.
  * (Link와 유사하되 [ ]앞에 !가 붙는다)
 2. 특정 파일들 포함하여 연결 시킬 수도 있다. **(위치 중요)**
 
----
+<br>
 
-> ## **Blockquotes : 인용문**
+## **Blockquotes : 인용문**
+---
 1. `>`으로 인용문을 작성할 수 있다.
 
 ### **적용 예시**
 > Blockquotes
 
----
+<br>
 
-> ## **Table : 테이블**
+## **Table : 테이블**
+---
 1. `Vertical bar(|)` 와 `Hyphen(-)` 를 이용하여 표 작성이 가능하다.
 
 ### **적용 예시**
@@ -88,9 +104,10 @@ print('hello')
 | Header | Title |
 | Paragraph | Text |
 
----
+<br>
 
-> ## **Horizontal Rule : 수평선**
+## **Horizontal Rule : 수평선**
+---
  1. 3개 이상의 `Asterisk(*) , Hyphen(---), Underscores(_)`을 사용한다.
 
 ### **적용 예시**

@@ -18,10 +18,8 @@
 
 <br>
 
-# **Git 버전 관리**
+## **3. Git 버전 관리 흐름**
 
-## **1. Git 버전 관리 흐름**
----
 > 쉽게 설명하면 다음과 같다. <br> 1. 작업을 하고 <br> 2. 변경된 파일을 모아(add) <br> 3. 버전으로 남긴다.(commit)
 * 버전(Repository)은 작업(수정)한 파일상태(Working directory)를 커밋할 파일 상태 목록(Staging area로) add한 뒤 commit으로 기록한다.
 
@@ -33,8 +31,8 @@
 
 <br>
 
-## **2. Git 필수 설정 정보**
----
+## **4. Git 필수 설정 정보**
+
 * 사용자 정보 (commit author) : 커밋을 하기 위해 반드시 필요
 
   * git config --global user.email `"my@email.com"`
@@ -50,8 +48,8 @@
 
   <br>
 
-## **3. Git 명령어**
----
+## **5. Git 명령어**
+
 1. **init** (저장소 생성) 
 
 > **`$ git init`**

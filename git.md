@@ -22,12 +22,17 @@
 
 > 쉽게 설명하면 다음과 같다. <br> 1. 작업을 하고 <br> 2. 변경된 파일을 모아(add) <br> 3. 버전으로 남긴다.(commit)
 * 버전(Repository)은 작업(수정)한 파일상태(Working directory)를 커밋할 파일 상태 목록(Staging area로) add한 뒤 commit으로 기록한다.
+![사진](K-002.png)
+
+<br>
 
 * Git은 파일을  modified, staged, committed로 관리한다
 
   * modified : 파일이 수정된 상태 (add 명령어를 통하여 staging area로)
   * staged : 수정한 파일을 곧 커밋할 것이라고 표시한 상태 (commit 명령어로 저장소)
   * committed : 커밋이 된 상태
+
+  ![사진](K-003.png)
 
 <br>
 

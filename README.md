@@ -1,35 +1,8 @@
-# KDT 2기 교육과정
+## [KDT_2nd] Educational Program
+* [Today I Learned](KDT_TIL/README.md)
 
-<br>
+* Project (공사중)
 
-## Week 1
+* .etc (공사중)
 
-### Day 1
-
-1. OT 및 자기소개
-
-2. 학습 환경 준비
-
-<br>
-
-### Day 2
-
-1. 마크다운 이해
-* 마크다운 기반 문서작성
-
-<br>
-
-2. GIT 로컬저장소 이해
-* 로컬저장소 활용 명령어
-
-<br>
-
-### Day 3
-1. GIT 원격저장소 이해
-* GitHub에 원격저장소를 생성 및 관리
-
-* 원격저장소 활용 명령어
-
-<br>
-
-2. 분산버전관리 시스템 이해
+* [Update](Update/README.md)

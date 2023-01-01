@@ -44,4 +44,4 @@ $
 
 <br>
 
-### [위로](#cli) / [뒤로](/KDT_2nd/README.md)
+### [위로](#cli) / [뒤로](/KDT_2nd/README.md/#kdt_2nd-education-program)

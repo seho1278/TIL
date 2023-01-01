@@ -1,6 +1,6 @@
 # Update
 
-## Update Plan
+## 앞으로 할 일
 
 * Fix
   * 마크다운 페이지 수정
@@ -9,9 +9,8 @@
 <br>
 
 * Add
-  * Git 명령어 관련 상황 추가 작성 추가
   * KDT_2nd 6일차 교육내용 추가
-  * java, python TIL 추가
+  * git, java, python TIL 추가
 
 <br>
 
@@ -21,7 +20,9 @@
 
 * [22. 12. 30. Fri](Update_list/22.12.30.Fri.md)
 
-*
+* [22. 12. 31. Sat](Update_list/22.12.31.Sat.md)
+
+* [23. 1. 1. Sun](Update_list/23.1.1.Sun.md)
 
 <br>
 

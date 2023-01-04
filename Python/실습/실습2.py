@@ -1,91 +1,107 @@
 # 문제1
-# number = int(input("숫자를 입력해주세요 > ")) # 10
+# n = int(input("정수를 입력하세요 > "))
 
-# print(number + 10)
+# if n > 0:
+#     print(True)
+# else:
+#     print(False)
 
 
 # 문제2
-# food = input("좋아하는 음식은 > ") # 피자
+# n1 = int(input("첫 번째 정수를 입력하세요 > "))
+# n2 = int(input("두 번째 정수를 입력하세요 > "))
 
-# print("좋아하는 음식은 :", food)
+# if n1 > n2:
+#     print(n1)
+# elif n1 < n2:
+#     print(n2)
+# else:
+#     print(False)
 
 
 # 문제3
-# name = input("이름을 입력해주세요 > ") # 정세호
-# birth = int(input("태어난 년도를 입력해주세요 > ")) # 1996
-# age = 2023 - birth
+# n = int(input("정수를 입력하세요 > "))
 
-# print(f"저의 이름은 {name}이고, 올해 나이는 {age}세 입니다.")
+# if 1 < n and n < 10:
+#     print(True)
+# else:
+#     print(False)
 
 
 # 문제4
-# x = input("첫 번째 문장을 입력해주세요 > ") # hello
-# y = input("두 번째 문장을 입력해주세요 > ") # world
+# n = int(input("정수를 입력하세요 > "))
 
-# print(x + y)
+# if n > 0:
+#     if n%2 == 0:
+#         print(True)
+#     else:
+#         print(False)
+# else:
+#     print(False)
 
 
 # 문제5
-# number = int(input("숫자를 입력해주세요 > "))
-
-# print(-number)
+# n = int(input("정수를 입력하세요 > "))
+# if n >= 60:
+#     if n > 100:
+#         print("에러")
+#     else:
+#         print("합격")
+# else:
+#     if n < 0:
+#         print("에러")
+#     else:
+#         print("불합격")
 
 
 # 문제6
-# number1 = int(input("첫 번째 정수형 숫자를 입력해주세요 > ")) # 10
-# number2 = int(input("두 번째 정수형 숫자를 입력해주세요 > ")) # 3
-# number3 = number1 + number2
-# number4 = number1 - number2
-# number5 = number1 * number2
-# number6 = number1 // number2
-# number7 = number1 % number2
+# s = input("문자열을 입력하세요 > ")
 
-# print("더하기 연산 :", number3)
-# print("빼기 연산 :", number4)
-# print("곱하기 연산 :", number5)
-# print("몫 연산 :", number6)
-# print("나머지 연산 :", number7)
+# for i in s[::-1]:
+#     print(i)
 
 
 # 문제7
-# number1 = int(input("첫 번째 정수형 숫자를 입력해주세요 > ")) # 1
-# number2 = int(input("두 번째 정수형 숫자를 입력해주세요 > ")) # 2
-# number3 = int(input("세 번째 정수형 숫자를 입력해주세요 > ")) # 3
-# number4 = int((number1 + number2 + number3) / 3)
+# n1 = int(input("첫 번째 정수를 입력하세요 > "))
+# n2 = int(input("두 번째 정수를 입력하세요 > "))
 
-# print(number4)
+# if n1 > n2:
+#     for i in range(n2 + 1, n1):
+#         print(i)
+# elif n2 > n1:
+#     for i in range(n1 + 1, n2):
+#         print(i)
+# else:
+#     print(False)
 
 
 # 문제8
-# number1 = int(input("첫 번째 정수형 숫자를 입력해주세요 > ")) # 2
-# number2 = int(input("두 번째 정수형 숫자를 입력해주세요 > ")) # 54
-# number3 = int(input("세 번째 정수형 숫자를 입력해주세요 > ")) # 1
-# number4 = int(input("네 번째 정수형 숫자를 입력해주세요 > ")) # 6
-# number5 = int(input("다섯 번째 정수형 숫자를 입력해주세요 > ")) # 3
-# list = [number1, number2, number3, number4, number5]
+# n1 = int(input("첫 번째 정수를 입력하세요 > "))
+# n2 = int(input("두 번째 정수를 입력하세요 > "))
 
-# print(list)
+# if n1 > n2:
+#     for i in range(n2 + 1, n1)[::-1]:
+#         print(i, end=" ")
+# elif n2 > n1:
+#     for i in range(n1 + 1, n2)[::-1]:
+#         print(i, end=" ")
+# else:
+#     print(False)
 
 
 # 문제9
-# string = input("문자열을 입력해주세요 > ") # hello
-# number = int(input("정수형 숫자를 입력해주세요 > ")) # 3
-
-# print(string * number)
+# n = int(input("정수를 입력하세요 > "))
+# if n > 0:
+#     for i in range(1, n, 2):
+#         print(i)
+# else:
+#     print(False)
 
 
 # 문제10
-# number1 = int(input("첫 번째 정수형 숫자를 입력해주세요 > ")) # 1
-# print(number1)
+# n1 = 10
+# n2 = 10
 
-# number2 = int(input("두 번째 정수형 숫자를 입력해주세요 > ")) # 2
-# print(number1 + number2)
-
-# number3 = int(input("세 번째 정수형 숫자를 입력해주세요 > ")) # 3
-# print(number1 + number2 + number3)
-
-# number4 = int(input("네 번째 정수형 숫자를 입력해주세요 > ")) # 4
-# print(number1 + number2 + number3 + number4)
-
-# number5 = int(input("다섯 번째 정수형 숫자를 입력해주세요 > ")) # 5
-# print(number1 + number2 + number3 + number4 + number5)
+# for n in range(2, n1):
+#     for m in range(2, n2):
+#         print(f"{n} X {m} = {n*m}")

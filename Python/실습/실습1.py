@@ -1,78 +1,91 @@
-# 예제 1
-# number1 = 1
-# number2 = number1 + 1
+# 문제1
+# number = int(input("숫자를 입력해주세요 > ")) # 10
 
-# print(number1, number2) # 1 2 가 출력된다.
-
-
-# 예제 2
-# number1 = 10
-# number2 = 5
-# number3 = str(number1) + str(number2)
-# number4 = number1 + number2
-
-# print(number1, number2, number3, number4) # 10 5 105 15
+# print(number + 10)
 
 
-# 예제 3
-# string1 = "Hello"
-# string2 = string1
-# string3 = "World" + "!"
+# 문제2
+# food = input("좋아하는 음식은 > ") # 피자
 
-# print(string2, "?", string3) # Hello ? World!
+# print("좋아하는 음식은 :", food)
 
 
-# 예제 4
-# string = "Hello?"
-# n = 5
+# 문제3
+# name = input("이름을 입력해주세요 > ") # 정세호
+# birth = int(input("태어난 년도를 입력해주세요 > ")) # 1996
+# age = 2023 - birth
 
-# print(string * n) # Hello?Hello?Hello?Hello?Hello?
-
-
-# 예제 5
-# string = "abc hello def"
-# sub_string1 = string[4:10]
-# sub_string2 = string[1:4]
-# sub_string3 = string[-1]
-
-# print(sub_string1) # hello 
-# print(sub_string2) # bc 
-# print(sub_string3) # f
+# print(f"저의 이름은 {name}이고, 올해 나이는 {age}세 입니다.")
 
 
-# 예제 6
-# number1 = 5
-# number2 = 10.0 + number1
-# number1 - 5
-# number3 = number1 * (number2 + 10)
+# 문제4
+# x = input("첫 번째 문장을 입력해주세요 > ") # hello
+# y = input("두 번째 문장을 입력해주세요 > ") # world
 
-# print(number1, number2, number3) # 5 15.0 125.0
+# print(x + y)
 
 
-# 예제 7
-# list_variable = [1, 2, 3, [1, 2, 3]]
-# sub_list = list_variable[3][-1]
+# 문제5
+# number = int(input("숫자를 입력해주세요 > "))
 
-# print(sub_list) # 3
-
-
-# 예제 8
-# list_variable = []
-# list_variable.append(1)
-# list_variable.append("a")
-# list_variable[0] = 0
-
-# print(list_variable) # 0 a    /    [0, 'a'] 리스트 생각!
+# print(-number)
 
 
-# 예제 9
-# name = input("너의 이름은?")
+# 문제6
+# number1 = int(input("첫 번째 정수형 숫자를 입력해주세요 > ")) # 10
+# number2 = int(input("두 번째 정수형 숫자를 입력해주세요 > ")) # 3
+# number3 = number1 + number2
+# number4 = number1 - number2
+# number5 = number1 * number2
+# number6 = number1 // number2
+# number7 = number1 % number2
 
-# print(name) # 너의 이름은?:
+# print("더하기 연산 :", number3)
+# print("빼기 연산 :", number4)
+# print("곱하기 연산 :", number5)
+# print("몫 연산 :", number6)
+# print("나머지 연산 :", number7)
 
 
-# # 예제 10
-# age = int(input("너의 나이는?")) # 27입력
+# 문제7
+# number1 = int(input("첫 번째 정수형 숫자를 입력해주세요 > ")) # 1
+# number2 = int(input("두 번째 정수형 숫자를 입력해주세요 > ")) # 2
+# number3 = int(input("세 번째 정수형 숫자를 입력해주세요 > ")) # 3
+# number4 = int((number1 + number2 + number3) / 3)
 
-# print("올해 나이 : ", age) # 올해 나이 :  27
-# print("내년 나이 : ", age + 1) # 내년 나이 :  28
+# print(number4)
+
+
+# 문제8
+# number1 = int(input("첫 번째 정수형 숫자를 입력해주세요 > ")) # 2
+# number2 = int(input("두 번째 정수형 숫자를 입력해주세요 > ")) # 54
+# number3 = int(input("세 번째 정수형 숫자를 입력해주세요 > ")) # 1
+# number4 = int(input("네 번째 정수형 숫자를 입력해주세요 > ")) # 6
+# number5 = int(input("다섯 번째 정수형 숫자를 입력해주세요 > ")) # 3
+# list = [number1, number2, number3, number4, number5]
+
+# print(list)
+
+
+# 문제9
+# string = input("문자열을 입력해주세요 > ") # hello
+# number = int(input("정수형 숫자를 입력해주세요 > ")) # 3
+
+# print(string * number)
+
+
+# 문제10
+# number1 = int(input("첫 번째 정수형 숫자를 입력해주세요 > ")) # 1
+# print(number1)
+
+# number2 = int(input("두 번째 정수형 숫자를 입력해주세요 > ")) # 2
+# print(number1 + number2)
+
+# number3 = int(input("세 번째 정수형 숫자를 입력해주세요 > ")) # 3
+# print(number1 + number2 + number3)
+
+# number4 = int(input("네 번째 정수형 숫자를 입력해주세요 > ")) # 4
+# print(number1 + number2 + number3 + number4)
+
+# number5 = int(input("다섯 번째 정수형 숫자를 입력해주세요 > ")) # 5
+# print(number1 + number2 + number3 + number4 + number5)

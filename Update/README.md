@@ -9,7 +9,7 @@
 <br>
 
 * Add
-  * KDT_2nd 9일차 교육내용 추가
+  * KDT_2nd 11일차 교육내용 추가
   * git, java, python TIL 추가
 
 <br>
@@ -27,6 +27,8 @@
 * [23. 1. 2. Mun](Update_list/23.1.2.Mon.md)
 
 * [23. 1. 4. Wed](Update_list/23.1.4.Wed.md)
+
+* [23. 1. 6. Fri](Update_list/23.1.6.Fri.md)
 
 <br>
 

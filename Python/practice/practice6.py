@@ -71,3 +71,21 @@
 
 # else:
 #     print(-1)
+
+# 6 - 1 (다른사람 풀이)
+
+# while 사용
+# 반복적으로 n을 10으로 나눈 몫,
+# n이 0보다 클 때 계속 반복!
+# 결과값은 n을 10으로 나눈 나머지를 더해나갈 것
+
+# n = int(input())
+# result = 0
+
+# while n > 0:
+#     result += n%10
+#     n //= 10
+    
+#     print(n, result)
+
+# print(result)

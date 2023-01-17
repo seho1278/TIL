@@ -65,13 +65,10 @@
 # T = N
 # count = 0
 
-
 # while True:
 #     count += 1
-
 #     result = T[1] + str(int(T[0]) + int(T[1])).zfill(2)[1]
 #     result = str(result).zfill(2)
-    
     
 #     if int(result) == int(N):
 #         break
@@ -79,8 +76,6 @@
 #         T = result
 
 # print(count)
-
-
 
 
 # 10807번 개수 세기
@@ -98,3 +93,170 @@
 # h, w = map(int, input().split())
 # n = int(input())
 # l, d, (x, y) = map(int, input().split())
+
+
+# 10871번 X보다 작은 수
+# 정수 N개로 이루어진 수열 A와 정수 X가 주어진다. 이때, A에서 X보다 작은 수를 모두 출력하는 프로그램을 작성
+
+# 첫째 줄에 N과 X가 주어진다
+# 둘째 줄에 수열 A를 이루는 정수 N개가 주어진다.
+
+# X보다 작은 수를 입력받은 순서대로 공백으로 구분해 출력
+
+# X, N = map(int, input().split())
+# A = list(map(int, input().split()))
+# N_list = []
+
+# for n in A:
+#     if n < N:
+#         N_list.append(n)
+# print(*N_list)
+
+
+# 10818번 최소, 최대
+# 첫째 줄에 정수의 개수 N이 주어진다. 둘째 줄에는 N개의 정수를 공백으로 구분해서 주어진다.
+
+# 첫째 줄에 주어진 정수 N개의 최솟값과 최댓값을 공백으로 구분해 출력
+
+# import sys
+
+# N = int(sys.stdin.readline())
+# M = list(map(int, sys.stdin.readline().split()))
+# print(min(M), max(M), sep=' ')
+
+
+# 2562번 최댓값
+# result = 0
+# r_list = []
+# for n in range(9):
+#     N = int(input())
+#     r_list.append(N)
+
+# for m in r_list:
+#     result += 1
+#     if m == max(r_list):
+#         print(m, result, sep="\n")
+
+
+# 5597 과제 안 내신 분..?
+# X대학 M교수님은 프로그래밍 수업을 맡고 있다. 교실엔 학생이 30명이 있는데, 학생 명부엔 각 학생별로 1번부터 30번까지 출석번호가 붙어 있다.
+# 교수님이 내준 특별과제를 28명이 제출했는데, 그 중에서 제출 안 한 학생 2명의 출석번호를 구하는 프로그램을 작성하시오.
+
+# 입력 수 총 28줄로 각 제출자(학생)의 출석번호 n가 한줄에 하나씩 주어진다. 번호중복x
+# 출력은 두줄이다 1째줄엔 제출하지 않은 학생의 출석번호중 가장 작은것, 2번째에선 그 다음 출선번호 출력
+
+
+# N_list = []
+# N2_list = []
+
+# for n in range(1, 29):
+#     N = int(input())
+#     N_list.append(N)
+
+# for i in range(1,31):
+#     if i not in N_list:
+#         N2_list.append(i)
+
+# N2_list = sorted(N2_list)
+
+# print(N2_list[0], N2_list[1], sep='\n')
+
+
+# 3052번 나머지
+# 두 자연수 A와 B가 있을 때, A%B는 A를 B로 나눈 나머지 이다. 예를 들어, 7, 14, 27, 38을 3으로 나눈 나머지는 1, 2, 0, 2이다. 
+# 수 10개를 입력받은 뒤, 이를 42로 나눈 나머지를 구한다. 그 다음 서로 다른 값이 몇 개 있는지 출력하는 프로그램을 작성하시오.
+
+# 첫째 줄부터 열번째 줄 까지 숫자가 한 줄에 하나씩 주어진다. 이 숫자는 1,000보다 작거나 같고, 음이 아닌 정수이다.
+
+# 첫째 줄에, 42로 나누었을 때, 서로 다른 나머지가 몇 개 있는지 출력한다.
+
+# result = 0
+# A_list = []
+# r_list = []
+
+# for m in range(10):
+#     A = int(input())
+#     A_list.append(A)
+
+# for n in A_list:
+#     result = n % 42
+#     if result not in r_list:
+#         r_list.append(result)
+
+# print(len(r_list))
+
+
+# 1546번 평균
+# 받은 점수중 최댓값 M 설정, 모든 점수를 점수/M*100으로 수정
+# ex) max = 70 , math = 50 -> math = 50/70*100 = 71.43
+
+# 첫째 줄에 과목 개수 N, 둘째 줄에 현재성적이 주어진다. 
+
+# 첫째 줄에 새로운 평균을 출력
+
+# N = int(input())
+# M = list(map(int, input().split()))
+# X = max(M)
+# r_list = []
+# result = 0
+
+# for n in M:
+#     result = n / X * 100
+#     r_list.append(result)
+    
+
+# print(sum(r_list)/N)
+
+
+# 8958번 OX퀴즈
+# N = int(input())
+
+# for n in range(N):
+#     S = input()
+#     r_list = []
+#     result = 0
+#     for m in S:
+#         if m == 'O':
+#             result += 1 
+#             r_list.append(result)
+#         else:
+#             result = 0
+#             r_list.append(result)
+
+#     print(sum(r_list))
+
+
+# 4344번 평균은 넘겠지
+# 테스트 케이스 C
+# 테스트 케이스마다 학생의수 N, N명의 점수
+
+# C = int(input())
+
+# for i in range(C):
+#     N = list(map(int, input().split()))
+#     average = (sum(N) - N[0]) / N[0]
+#     r_list = []
+#     for n in N[1::]:
+#         if n > average:
+#             r_list.append(n)
+
+#     print(f'{"%.3f" % ((len(r_list)*100) / N[0])}%')
+
+
+# 15596번 정수 N개의 합
+# a: 합을 구해야 하는 정수 n개가 저장되어 있는 리스트
+# 리턴값: a에 포함되어 있는 정수n개의 합
+# def solve(a):
+#     ans = sum(a)
+#     return ans
+
+# n = list(map(int, input().split()))
+# print(solve(n))
+
+# 11654번 아스키 코드
+# 알파벳 소문자, 대문자, 숫자 0-9중 하나가 주어졌을 때
+# 입력 : 알파벳 소문자, 대문자, 숫자 0-9중 하나가 첫째 줄에 주어진다.
+# 출력 : 입력으로 주어진 글자의 아스키 코드 값을 출력한다.
+
+# code = input()
+# print(ord(code))

@@ -48,3 +48,31 @@
 # for t in range(1, T + 1):
 #     nums = list(map(int, input().split()))  
 #     print(f'#{t} {max(nums)}')
+
+
+
+
+
+
+
+
+
+# 1000번 A+B
+
+# A, B = map(int, input().split())
+# print(A + B)
+
+# # 2558번 A+B -2
+
+# A = int(input())
+# B = int(input())
+# print(A + B)
+
+# # 10950번 A+B -3
+T = int(input())
+result = 0
+
+for t in range(T):
+    A, B = map(int, input().split())
+    result = A + B
+    print(result)

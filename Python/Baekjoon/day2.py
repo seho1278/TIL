@@ -89,33 +89,60 @@
 #     else:
 #         T = result
 
-class addcycle:
-    def __init__(self, number):
-        self.number = number
+# class addcycle:
+#     def __init__(self, number):
+#         self.number = number
   
-    def cycle(number):
-        def f(x):
-            x_list = [int(a) for a in str(x)]  
-            return sum(x_list)
+#     def cycle(number):
+#         def f(x):
+#             x_list = [int(a) for a in str(x)]  
+#             return sum(x_list)
 
-        def d(x):                             
-            x_list = [int(a) for a in str(x)]
-            return x_list[-1]
+#         def d(x):                             
+#             x_list = [int(a) for a in str(x)]
+#             return x_list[-1]
 
-        def str_add(x, y):                  
-            return int(str(x) + str(y))
+#         def str_add(x, y):                  
+#             return int(str(x) + str(y))
 
-        T = number
-        result = 0                         
-        cnt = 0                               
-        while True:                           
-            cnt += 1
-            result = str_add((d(T)), d(f(T)))
-            if result == number:
-                return cnt
-            else:
-                T = result
+#         T = number
+#         result = 0                         
+#         cnt = 0                               
+#         while True:                           
+#             cnt += 1
+#             result = str_add((d(T)), d(f(T)))
+#             if result == number:
+#                 return cnt
+#             else:
+#                 T = result
 
-N = int(input())
-res = addcycle(N)
-print(res.cycle())
+# N = int(input())
+# res = addcycle(N)
+# print(res.cycle())
+
+# N = "26"
+# T = N
+# cnt = 0
+
+# if int(N) < 10:
+#         N = "0" + N
+
+# while True:
+    
+    
+
+#     first = N[-1]
+#     second = N[0]
+
+#     sum_number = int(first) + int(second)
+
+#     new_number = N[-1] + str(sum_number[-1])
+
+#     cnt += 1
+
+#     if new_number == T:
+#         break
+
+#     N = new_number
+
+# print (cnt)

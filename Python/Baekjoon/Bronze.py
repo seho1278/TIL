@@ -260,3 +260,162 @@
 
 # code = input()
 # print(ord(code))
+
+
+# 10809번 알파벳 찾기
+# 알파벳 소문자로만 이루어진 단어S가 주어진다. 각각의 알파벳에 대해서, 단어에 포함되어 있는 경우 처음 등장하는 위치를, 포함되어 있지 않은 경우에는 -1을 출력
+# 입력 : 첫줄에 단어 S 입력
+# 출력 : 각각의 알파벳에 대해서, a 가 처음 등장하는 위치, b가 처음 등장하는 위치 .... 를 공백으로 구분해서 출력
+# 어떤 알파벳이 단어에 포함되어 있지 않다면 -1을 출력\
+
+# S = input()
+# alphabet = []
+
+# for n in range(97, 123):
+#     alphabet.append(chr(n))
+
+# r_list = []
+
+# for m in alphabet:
+#     result = 0
+#     if m in S:
+#         for l in S:
+#             if l == m:
+#                 r_list.append(result)
+#                 break
+#             else:
+#                 result += 1
+#     else:
+#         r_list.append(-1)
+
+# print(*r_list)
+
+# # 2675번 문자열 반복
+# T = int(input())
+# for t in range(T):
+#     A, B = input().split()
+#     A = int(A)
+#     result = [a*A for a in B]
+#     print(*result, sep='')
+
+
+# # 1157 단어 공부
+# S = input()
+# alpha = {}
+
+# for i in S.upper():
+#     if i not in alpha:
+#         alpha[i] = 1
+#     else:
+#         alpha[i] += 1
+
+# a_list = []
+
+# for key, value in alpha.items():
+#     a_list.append(key)
+
+# if len(a_list) == 1:
+#     print(a_list[0])
+
+# else:
+#     for i in range(len(alpha)):
+#         min_index = i
+#         for j in range(i + 1, len(alpha)):
+#             if alpha[a_list[min_index]] > alpha[a_list[j]]:
+#                 min_index = j
+#                 a_list[i], a_list[min_index] = a_list[min_index], a_list[i]
+
+#     if alpha[a_list[-1]] == alpha[a_list[-2]]:
+#         print('?')
+
+#     else:
+#         print(a_list[-1])
+
+
+# # 1152번 단어의 개수
+# # 영어 대소문자와 공백으로 이루어진 문자열이 주어질 때 몇개의 단어가 있는가(중복 포함)
+# # 입력 : 첫 줄에 영어 대소문자와 공백으로 이루어진 문자열이 주어진다.
+# # 출력 : 단어의 갯수
+
+# S = input().split()
+# String = {}
+
+# for s in S:
+#     if s not in String:
+#         String[s] = 1
+#     else:
+#         String[s] += 1
+
+# v_list = []
+
+# for k in String.keys():
+#     v_list.append(String[k])
+
+# print(sum(v_list))
+
+
+# 2908번 상수
+# 상수는 수를 거꾸로 읽는다 이때 주어진 숫자들중 큰값을 출력해라
+
+# 입력 : 두 수 A, B 입력
+# 출력 : 뒤집은 후 큰값 출력
+
+# A, B = input().split()
+
+# if int(A[::-1]) > int(B[::-1]):
+#     print(A[::-1])
+# else:
+#     print(B[::-1])
+
+
+# 1712번 손익분기점
+# A = 매년 임대료, 재산세 등 내야하는 금액
+# B = 노트북을 생산하는데 드는 재료비와 인건비 등
+# C = 노트북 가격
+# ex) A = 1000, B = 70  > 1대 1070원, 10대 1700원
+
+# 최초로 총 수입이 총 비용보다 많아지는 지점 출력
+# import sys
+
+# A, B, C = map(int, sys.stdin.readline().split())
+
+# if B >= C:
+#     print(-1)
+
+# else:
+#     N = int((A / (C - B)) + 1)
+#     print(N)
+    
+        
+# # 2292번 벌집
+# N = int(input())
+
+# n = 1
+# result = 1
+# if result == N:
+#     print(1)
+# else:
+#     while True:
+#         if result < N and N <= result+6*n:
+#             print(n+1)
+#             break
+#         else:
+#             result += 6*n
+#             n += 1
+
+
+# 1193번 분수찾기
+X = int(input())
+result = 1
+n = 1
+while True:
+    if result <= X and X < result + n:
+        t = X - result
+        if n % 2 == 0:
+            print("%d/%d" %(t + 1, n - t))
+        else:
+            print("%d/%d" %(n - t, t + 1))
+        break
+    else:
+        result += n
+        n += 1

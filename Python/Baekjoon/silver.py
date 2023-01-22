@@ -64,3 +64,40 @@
 #             result += 1
 
 # print(result)
+
+
+# 1316번 그룹 단어 체커
+# 그룸 단어란 각 문자가 연속해서 나타나는 경우만을 말한다.
+
+# 입력: 첫줄에 단어의 개수N
+
+# 출력: 그룹단어 갯수 출력
+
+N = int(input())
+result = 0
+
+for n in range(N):
+    S = input()
+    cnt = 0
+    index = S[0]        
+    s_list = []
+
+    if len(S) == 1:
+        cnt = 1
+    else:
+        for i in S:     
+            if i != index:
+                s_list.append(index)
+                index = i
+        s_list.append(index)
+
+        for m in s_list:
+            if s_list.count(m) >= 2:
+                cnt = 0
+                break
+            else:
+                cnt = 1
+                
+        result += cnt
+
+print(result) 

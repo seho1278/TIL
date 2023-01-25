@@ -50,6 +50,8 @@
 
 * [23. 1. 20. Fri](Update_list/23.1.20.Fri.md)
 
+* [23. 1. 25. Wed](Update_list/23.1.25.Wed.md)
+
 <br>
 
 <br>

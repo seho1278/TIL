@@ -170,24 +170,146 @@
 #         for j in range(x):
 
 
+# T = int(input())
+
+# for t in range(T):
+#     N, M = map(int, input().split())
+#     M_list = []
+#     N_list = []
+
+#     for n in range(N):
+#         numbers = list(map(int, input().split()))
+#         N_list.append(numbers)
+
+#     for k in range(N-M+1):
+#         for l in range(N-M+1):
+#             R_list = []
+#             for i in range(M):
+#                 for j in range(M):
+#                     R_list.append(N_list[k + i][l + j])
+#             M_list.append(sum(R_list))
+
+#     print(f'#{t+1} {max(M_list)}')
+
+
+# 1989번 초심자의 회문검사
+# level과 같이 거꾸로 읽어도 제대로 읽은 것과 같은 문장이나 낱말을 회문이라한다.
+# 회문이면 1출력 아니면 0 출력
+# 입력 : 가장 첫 줄에 테스트 케이스 T가 주어지고 각 테스트 케이스 첫 번째 줄에 하나의 단어가 주어진다.
+
+# T = int(input())
+# for t in range(T):
+#     S = input()
+#     if S[::] == S[::-1]:
+#         print(f'#{t+1} {1}')
+#     else:
+#         print(f'#{t+1} {0}')
+
+
+# 1986번 지그재그 숫자
+# 1번부터 N까지 숫자에서 홀수는 더하고 짝수는 뺏을 때 최종 누적된 값 구하기
+# 입력 : 가장 첫 줄에 테스트 케이스 T 아래로 각 테스트 케이스에는 N이 주어진다.
+
+# T = int(input())
+
+# for t in range(T):
+#     N = list(range(1, int(input()) + 1))
+#     result = 0
+#     for n in N:
+#         if n % 2 == 1:
+#             result += n
+#         else:
+#             result -= n
+#     print(f'#{t+1} {result}')
+
+
+# 1984번 중간 평균값 구하기
+# 10개의 수를 입력 받아, 최대 수와 최소 수를 제외한 나머지 평균값을 출력
+
+# 입력 : 가장 첫 줄에 테스트 케이스 개수 T가 주어지고 각 아래로 테스트 케이스가 주어진다.
+
+# T = int(input())
+
+# for t in range(T):
+#     nums = list(map(int, input().split()))
+#     nums.remove(max(nums))
+#     nums.remove(min(nums))
+    
+#     print(f'#{t+1} {round(sum(nums)/len(nums))}')
+
+
+# 1983번 조교의 성적 매기기
+# 총점 = 중간고사(35%) + 기말고사(45%) + 과제(20%)
+# 평점은 A+ ~ D0까지 상대평가 K번째 학생의 학점 출력
+
+# 입력 : 테스트케이스 개수 T, 테스트케이스 첫번째 줄은 학생수N과, 학점을 알고싶은 학생의 번호 K가 주어진다. 두번째 줄부턴 각 학생이 받은 시험 및 과제점수
+
+# def score(x, y):
+#     rate = x/10
+#     for i in range(1, x+1):
+#         for j in range(1, rate+1):
+#             if 1 == y:
+#                 return 'A+'
+#             elif 2 == y:
+#                 return 'A0'
+#             elif 3 == y:
+#                 return 'A-'
+#             elif 4 == y:
+#                 return 'B+'
+#             elif 5 == y:
+#                 return 'B0'
+#             elif 6 == y:
+#                 return 'B-'
+#             elif 7 == y:
+#                 return 'C+'
+#             elif 8 == y:
+#                 return 'C0'
+#             elif 9 == y:
+#                 return 'C-'
+#             elif 10 == y:
+#                 return 'D0'
+
 
 T = int(input())
 
+rank_list = ['A+', 'A0', 'A-', 'B+', 'B0', 'B-', 'C+', 'C0', 'C-', 'D0'] 
 for t in range(T):
-    N, M = map(int, input().split())
-    M_list = []
-    N_list = []
+    N, K = map(int, input().split())
+    r_dict = {}
+    s_dict = {}
+    for n in range(1, N + 1):
+        A, B, C = map(int, input().split())
+        result = (A*0.35) + (B*0.45) + (C*0.2)
+        r_dict[n] = result
+        rank = sorted(r_dict.values(), reverse=True)
 
-    for n in range(N):
-        numbers = list(map(int, input().split()))
-        N_list.append(numbers)
+    for k in range(len(rank_list)):
+        cnt = 0
+        for m in range(N):
+            s_dict[rank[]]
 
-    for k in range(N-M+1):
-        for l in range(N-M+1):
-            R_list = []
-            for i in range(M):
-                for j in range(M):
-                    R_list.append(N_list[k + i][l + j])
-            M_list.append(sum(R_list))
+    print(rank.index(r_dict[K]))
 
-    print(f'#{t+1} {max(M_list)}')
+
+    T = int(input())
+s_lst = ['A+', 'A0', 'A-', 'B+', 'B0', 'B-', 'C+', 'C0', 'C-', 'D0']
+for i in range(1, T+1):
+    N, K = map(int, input().split())
+    stu_dict = {}
+    sort_dict = {}
+    lst = []
+    r_lst = []
+    num_lst = list(range(N))
+    for j in range(1, N+1):
+        A, B, C = list(map(int, input().split()))
+        stu_dict[j] = (0.35*A)+(0.45*B)+(0.2*C)
+        lst.append((0.35*A)+(0.45*B)+(0.2*C))
+        r_lst = sorted(lst,reverse=True)
+    for k in range(len(s_lst)):
+        cnt = 0
+        for n in num_lst:
+            sort_dict[r_lst[num_lst.pop(0)]] = s_lst[k]
+            cnt += 1
+            if cnt == int(N/10):
+                break
+    print(f'#{i} {sort_dict[stu_dict[K]]}')

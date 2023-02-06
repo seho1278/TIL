@@ -322,3 +322,73 @@
 #     result2.append(result)
 
 # print(result2)
+
+
+# 2839번 설탕 배달
+
+# import sys
+
+# N = int(sys.stdin.readline())
+
+# B = True
+# for i in range(N//5, -1, -1):
+#     for j in range(0, (N//3)+1):
+#         if 5*i + 3*j == N:
+#             print(i+j)
+#             B = False
+#             break
+#     if B == False:
+#         break   
+# if B:
+#     print(-1)
+
+
+# 1978번 소수 찾기
+# N = int(input())
+# nums = map(int, input().split())
+
+# cnt = 0
+# for i in nums:
+#     if i != 1:
+#         for j in range(2, i):
+#             if i % j == 0:
+#                 break
+#         else:
+#             cnt += 1
+
+# print(cnt)
+
+
+# 2581번 소수
+# M = int(input())
+# N = int(input())
+# list_ = []
+
+# for i in range(M, N+1):
+#     for j in range(2, i):
+#         if i % j == 0:
+#             break
+#     else:
+#         if i == 1:
+#             pass
+#         else:
+#             list_.append(i)
+
+# if list_:
+#     print(sum(list_), min(list_), sep='\n')
+# else:
+#     print(-1)
+
+
+# 1929번 소수 구하기
+M, N = map(int, input().split())
+
+for i in range(M, N+1):
+    if i == 1:
+        continue
+    for j in range(2, int(i**0.5)+1):
+        if i % j == 0:
+            break
+    else:
+        print(i)
+        

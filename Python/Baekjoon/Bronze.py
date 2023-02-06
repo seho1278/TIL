@@ -423,11 +423,78 @@
 
 # 2869번 달팽이는 올라가고 싶다.
 
-A, B, V = map(int, input().split())
+# A, B, V = map(int, input().split())
 
-x = (V-B)/(A-B)
+# x = (V-B)/(A-B)
 
-if x == int(x):
-    print(int(x))
-else:
-    print(int(x)+1)
+# if x == int(x):
+#     print(int(x))
+# else:
+#     print(int(x)+1)
+
+
+# 10250번 ACM 호텔
+
+# T = int(input())
+
+# for t in range(T):
+#     H, W, N = map(int, input().split())
+    
+#     result = N % H
+#     result2 = N // H + 1
+#     if N % H == 0:
+#         result2 = N//H
+#         result = h
+
+#     print(f'{result*100+result2}')
+
+# 다른사람 코드
+# T = int(input())
+
+# for i in range(T):
+#     h, w, n = map(int, input().split( )) # h=각 호텔의 층 수, w=각 층의 방 수, n=몇 
+
+#     floor = n % h 
+#     room_line = (n // h) + 1
+#     if floor == 0:
+#         floor = h
+#         room_line -= 1
+    
+#     print(floor * 100 + room_line)
+
+
+# 2775번 부녀회장이 될테야
+# T = int(input())
+
+# for t in range(T):
+#     k = int(input())
+#     n = int(input())
+#     a = [_ for _ in range(1, n+1)]
+    
+#     for i in range(k):
+#         for j in range(1, n):
+#             a[j] += a[j-1]
+        
+#     print(a[-1])
+
+
+# 10757번 큰 수 A+B
+
+# A, B = map(int, input().split())
+
+# print(A+B)
+
+
+# 11653번 소인수분해
+# N = int(input())
+
+# while True:
+#     for i in range(2, N+1):
+#         if N % i == 0:
+#             print(i)
+#             N = int(N/i)
+#             break
+#     if N == 1:
+#         break
+
+

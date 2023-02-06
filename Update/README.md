@@ -3,8 +3,6 @@
 ## 앞으로 할 일
 
 * Fix
-  * 마크다운 페이지 수정
-  * 오타 수정
 
 <br>
 
@@ -63,6 +61,10 @@
 * [23. 2. 1. Wed](Update_list/23.2.1.Wed.md)
 
 * [23. 2. 2. Thu](Update_list/23.2.2.Thu.md)
+
+* [23. 2. 3. Fri](Update_list/23.2.3.Fri.md)
+
+* [23. 2. 6. Mon](Update_list/23.2.6.Mon.md)
 
 <br>
 

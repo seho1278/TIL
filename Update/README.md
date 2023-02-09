@@ -7,8 +7,8 @@
 <br>
 
 * Add
-  * KDT_2nd 27일차 교육내용 추가
-  * python TIL 추가 (코딩테스트)
+  * KDT_2nd 31일차 교육내용 추가
+  * 백준 알고리즘 문제풀기
 
 <br>
 
@@ -65,6 +65,12 @@
 * [23. 2. 3. Fri](Update_list/23.2.3.Fri.md)
 
 * [23. 2. 6. Mon](Update_list/23.2.6.Mon.md)
+
+* [23. 2. 7. Tue](Update_list/23.2.7.Tue.md)
+
+* [23. 2. 8. Wed](Update_list/23.2.8.Wed.md)
+
+* [23. 2. 9. Thu](Update_list/23.2.9.Thu.md)
 
 <br>
 

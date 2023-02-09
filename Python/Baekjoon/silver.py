@@ -381,14 +381,29 @@
 
 
 # 1929번 소수 구하기
-M, N = map(int, input().split())
+# M, N = map(int, input().split())
 
-for i in range(M, N+1):
-    if i == 1:
-        continue
-    for j in range(2, int(i**0.5)+1):
-        if i % j == 0:
-            break
-    else:
-        print(i)
-        
+# for i in range(M, N+1):
+#     if i == 1:
+#         continue
+#     for j in range(2, int(i**0.5)+1):
+#         if i % j == 0:
+#             break
+#     else:
+#         print(i)
+
+
+# 2563번 색종이
+# N = int(input())
+# matrix = [[0] * 100 for _ in range(100)]
+# cnt = 0
+# for n in range(N):
+#     X, Y = map(int, input().split())
+
+#     for i in range(X, X+10):
+#         for j in range(Y, Y+10):
+#             if matrix[i][j] == 0:
+#                 matrix[i][j] = 1
+#                 cnt += 1
+            
+# print(cnt)

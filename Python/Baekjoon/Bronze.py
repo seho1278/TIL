@@ -497,4 +497,46 @@
 #     if N == 1:
 #         break
 
+# 2738번 행렬 덧셈
+# NxM 크기의 두 행렬 A, B가 주어졌을 때 두 행렬을 더하는 프로그램 작성
+# 첫째 줄에 행렬의 크기 N과 M이 주어진다.
+# 둘째 줄부터 N개의 줄에 행렬 A의 원소 M개가 차례대로 주어진다
+
+# N, M = map(int, input().split())
+# A, B = [], []
+
+# for n in range(N):
+#     num = list(map(int, input().split()))
+#     A.append(num)
+
+# for n in range(N):
+#     num = list(map(int, input().split()))
+#     B.append(num)
+
+# for i in range(N):
+#     for j in range(M):
+#         print(A[i][j] + B[i][j], end=' ')
+#     print()
+
+
+# 최댓값
+# matrix = []
+# result = 0
+# row = 0
+# col = 0
+# for _ in range(9):
+#     num = list(map(int, input().split()))
+#     matrix.append(num)
+
+# for i in range(9):
+#     for j in range(9):
+#         if matrix[i][j] >= result:
+#             result = matrix[i][j]
+#             row = j + 1
+#             col = i + 1
+
+# print(result)
+# print(col, row)
+
+
 

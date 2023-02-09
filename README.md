@@ -16,6 +16,8 @@
 
 * Linux
 
+* [MySQL](/MySQL/README.md)
+
 ---
 
 * [Git](/KDT_2nd/KDT_Study/git.md)

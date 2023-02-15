@@ -407,3 +407,37 @@
 #                 cnt += 1
             
 # print(cnt)
+
+
+# 2751번 수 정렬하기2
+# import sys
+# N = int(sys.stdin.readline())
+# list_ = [int(sys.stdin.readline()) for n in range(N)]
+# list_ = sorted(list_)
+# print(*list_, sep='\n')
+
+
+# 2108 통계값
+N = int(input())
+dict_ = {}
+
+nums = [int(input()) for _ in range(N)]
+
+nums = sorted(nums)
+
+# set_nums = set(nums)
+# if nums.count(set_nums[0]) == nums.count(set_nums[1]):
+#     min_nums = nums[set_nums[1]]
+for i in nums:
+    if i not in dict_:
+        dict_[i] = 1
+    else:
+        dict_[i] += 1
+
+nums_dict = list(dict_.keys())
+result = dict_[nums_dict[0]]
+if dict_[nums_dict[0]] == dict_[nums_dict[1]]:
+    result = dict_[nums_dict[1]]
+
+
+print(round(sum(nums)/len(nums)), nums[round(len(nums)/2)], result, max(nums)-min(nums), sep='\n')

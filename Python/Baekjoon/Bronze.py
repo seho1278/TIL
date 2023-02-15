@@ -539,4 +539,134 @@
 # print(col, row)
 
 
+# 2587번 대표값2
+# N = [int(input()) for _ in range(5)]
 
+# # center = int(len(N)/2)
+# N = sorted(N)
+# print(int(sum(N)/5), N[2], sep='\n')
+
+
+# 25305번 커트라인
+
+# N, k = map(int, input().split())
+
+# x = list(map(int, input().split()))
+# x = sorted(x, reverse=True)
+# print(x[k-1])
+
+
+# 10989번 수 정렬하기 3
+# import sys
+
+# N = int(sys.stdin.readline())
+
+# num = [0] * 10001 # 자연수 N이 10000까지 있기 때문에 +1 
+
+# for _ in range(N):
+#     temp = int(sys.stdin.readline())      # list를 dict 형태로 이용 ?
+#     num[temp] += 1                        # 1~ 10000까지 입력할때마다 해당수 카운트하는 방식!
+
+# for i in range(10001):
+#     if num[i] != 0:   # 입력한 값이 리스트 안에 있을때
+#         for j in range(num[i]):  # num[i] 의 개수만큼 출력
+#             print(i)
+
+
+# 1009 분산처리
+# import sys
+
+# T = int(sys.stdin.readline())
+
+# for t in range(T):
+#     a, b = map(int, sys.stdin.readline().split())
+#     a = a % 10
+
+#     if a == 0:
+#         print(10)
+#     elif a == 1 or a == 5 or a == 6:
+#         print(a)
+#     elif a == 4 or a == 9:
+#         b = b % 2
+#         if b == 1:
+#             print(a)
+#         else:
+#             print((a*a)%10)
+#     else:
+#         b = b % 4
+#         if b == 0:
+#             print((a**4) % 10)
+#         else:
+#             print((a**b)% 10)
+
+
+# 1032번 명령 프롬프트
+# N = int(input())
+# list_ = []
+# for n in range(N):
+#     S = list(input())
+#     list_.append(S)
+
+# result = []
+
+# for i in range(N):
+#     for j in range(i, N):
+#         for m in range(len(S)):
+#             for k in range(m,m+1):
+#                 if list_[i][m] == list_[j][k]:
+#                     if j == 0:
+#                         result.append(list_[i][m])
+#                     else:
+#                         if result[m] == list_[i][m]:
+#                             result[m] = list_[i][m]
+#                 else:
+#                     if j == 0:
+#                         result.append('?')
+#                     else:
+#                         result[m] = '?'
+
+# print(*result, sep = '')
+
+
+# 1037 약수
+# 양수 A가 N의 진짜 약수가 되려면, N이 A의 배수이고, A가 1과 N이 아니어야 한다. 어떤 수 N의 진짜 약수가 모두 주어질 때, N을 구하는 프로그램을 작성하시오
+# 입력 : 첫줄에 N의 진짜 약수의 개수 (0 < X <= 50), 둘째 줄에는 N의 진짜 약수(2 <= Y <= 1,000,000)
+
+# N = int(input())
+# nums = list(map(int, input().split()))
+
+# if 2 in nums:
+#     print(max(nums)*2)
+# else:
+#     if len(nums) == 1:
+#         print(max(nums)**2)
+#     else:
+#         print(max(nums)*min(nums))
+
+
+# 1075번 나누기
+# 두 정수 N과 F가 주어진다. 정수 N의 가장 뒤 두자리를 적절히 바꿔서 N을 F로 나누어 떨어지게 만들려고 한다. 가능한 것이 여러 가지일 경우, 뒤 두 자리를 가능하면 작게 만들려고 한다.
+# ex ) N = 275, F = 5 -> 00 (200이 5로 나누어 떨어지기 때문) / N = 1021, F = 11 -> 01 (1001이 11로 나누어 떨어진다)
+
+# 입력 : 첫 줄에 N(100 <= N <= 2,000,000,000), 둘째 줄에 F(0 < F <= 100)가 주어진다.
+# 출력 : 첫째 줄에 마지막 두 자리를 모두 출력, 한자리이면 앞에 0을 추가해서 두자리로 만든다.
+
+N = input()
+F = int(input())
+
+for i in range(100):
+    if i < 10:
+        if int(N[:-2] + '0' + str(i)) % F == 0:
+            print('0' + str(i))
+            break
+    else:
+        if int(N[:-2] + str(i)) % F == 0:
+            print(str(i))
+            break
+        
+
+
+# 1271 엄청난 부자2
+
+# N, M = map(int, input().split())
+# print(int(N//M), int(N%M), sep='\n')

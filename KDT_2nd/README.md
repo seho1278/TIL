@@ -209,7 +209,7 @@
 
 ### [23.2.3. Fri] - Day 27
 * Python 교육 23일차
-  * 알고리즘 3주차 모의고사(SWEA)
+  * 알고리즘 2주차 모의고사(SWEA)
 
 <br>
 
@@ -235,7 +235,31 @@
 
 ### [23.2.9. Thu] - Day 31
 * DB 교육 2일차
-  * SQL 기초 - SELECT문
+  * SQL 기초 - (DQL - Querying data, Sorting data)
+
+<br>
+
+### [23.2.10. Fri] - Day 32
+* Python 교육 25일차
+  * 알고리즘 3주차 모의고사(SWEA)
+
+## Week 8
+
+### [23.2.13. Mon] - Day 33
+* DB 교육 3일차
+  * SQL 기초 - (DQL - Filtering data, Grouping data)
+
+<br>
+
+### [23.2.14. Tue] - Day 34
+* DB 교육 4일차
+  * SQL 기초 - (Managing table, Modifying data)
+
+<br>
+
+### [23.2.15. Wed] - Day 35
+* DB 교육 5일차
+  * SQL 기초 - (Multi table queries)
 
 <br>
 

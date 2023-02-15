@@ -7,8 +7,9 @@
 <br>
 
 * Add
-  * KDT_2nd 31일차 교육내용 추가
+  * KDT_2nd 34일차 교육내용 추가
   * 백준 알고리즘 문제풀기
+  * SQL 공부하기
 
 <br>
 
@@ -71,6 +72,14 @@
 * [23. 2. 8. Wed](Update_list/23.2.8.Wed.md)
 
 * [23. 2. 9. Thu](Update_list/23.2.9.Thu.md)
+
+* [23. 2. 10. Fri](Update_list/23.2.10.Fri.md)
+
+* [23. 2. 13. Mon](Update_list/23.2.13.Mon.md)
+
+* [23. 2. 14. Tue](Update_list/23.2.14.Tue.md)
+
+* [23. 2. 15. Wed](Update_list/23.2.15.Wed.md)
 
 <br>
 

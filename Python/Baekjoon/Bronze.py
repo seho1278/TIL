@@ -651,18 +651,18 @@
 # 입력 : 첫 줄에 N(100 <= N <= 2,000,000,000), 둘째 줄에 F(0 < F <= 100)가 주어진다.
 # 출력 : 첫째 줄에 마지막 두 자리를 모두 출력, 한자리이면 앞에 0을 추가해서 두자리로 만든다.
 
-N = input()
-F = int(input())
+# N = input()
+# F = int(input())
 
-for i in range(100):
-    if i < 10:
-        if int(N[:-2] + '0' + str(i)) % F == 0:
-            print('0' + str(i))
-            break
-    else:
-        if int(N[:-2] + str(i)) % F == 0:
-            print(str(i))
-            break
+# for i in range(100):
+#     if i < 10:
+#         if int(N[:-2] + '0' + str(i)) % F == 0:
+#             print('0' + str(i))
+#             break
+#     else:
+#         if int(N[:-2] + str(i)) % F == 0:
+#             print(str(i))
+#             break
         
 
 
@@ -670,3 +670,49 @@ for i in range(100):
 
 # N, M = map(int, input().split())
 # print(int(N//M), int(N%M), sep='\n')
+
+
+# 1085번 직사각형에서 탈출
+# 한수는 지금(x, y)에 있다. 직사각형은 각 변이 좌표축에 평행하고, 왼쪽 아래 꼭짓점은 (0, 0), 오른쪽 위 꼭짓점은(w,h)에 있다. 직사각형의 경계선까지 가는 거리의 최솟값을 구하는 프로그램 작성
+
+# x, y, w, h = map(int, input().split())
+# list_ = []
+# list_.append(w-x)
+# list_.append(h-y)
+# list_.append(x-0)
+# list_.append(y-0)
+# print(min(list_))
+
+
+# 1076번 저항
+# 전자 제품에는 저항이 들어간다 저항은 색 3개를 이용해서 그 저항이
+
+
+# 1173번 운동
+# 운동을하는 과정 = 1분단위, 매 분마다 운동과 휴식 중 하나 선택
+# 운동 선택한 경우 영식이 맥박 T만큼 증가, 영식이 맥박이 X였다면 1분동안 운동후 맥박이 X+T 증가 X+T <= M 일때만 운동 가능
+# 휴식 R만큼 감소 1분동안 휴식한경우 맥박 X-R, 맥박은 m보다 낮아지면 안된다. 따라서 X-R < m -> 맥박 = m
+# 영식이 초기 맥박은 m이다 운동을 N분 하려고 할때 N분하는데 필요한 시간의 최솟값 구하기
+
+# N, m, M, T, R = map(int, input().split())
+
+# X = m
+# for n in range(1, N+1):    
+#     if X > m:
+#         X = X + T
+#     elif 
+
+
+# 1145번 적어도 대부분의 배수
+# nums = list(map(int, input().split()))
+# n = min(nums)
+
+# while True:
+#     cnt = 0
+#     for i in range(5):
+#         if n % nums[i] == 0:
+#             cnt += 1
+#     if cnt > 2:
+#         print(n)
+#         break
+#     n += 1

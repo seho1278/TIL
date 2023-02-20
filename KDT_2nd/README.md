@@ -15,6 +15,10 @@
 
 7. [Week 7](#week-7)
 
+8. [Week 8](#week-8)
+
+9. [Week 9](#week-9)
+
 ---
 <br>
 
@@ -243,6 +247,8 @@
 * Python 교육 25일차
   * 알고리즘 3주차 모의고사(SWEA)
 
+<br>
+
 ## Week 8
 
 ### [23.2.13. Mon] - Day 33
@@ -259,7 +265,26 @@
 
 ### [23.2.15. Wed] - Day 35
 * DB 교육 5일차
-  * SQL 기초 - (Multi table queries)
+  * SQL 심화 - (Multi table queries)
+
+<br>
+
+### [23.2.16. Thu] - Day 36
+* DB 교육 6일차
+  * SQL 심화 - (Nested queries)
+
+<br>
+
+### [23.2.17. Fri] - Day 37
+* 커리어 특강
+
+<br>
+
+## Week 9
+
+### [23.2.20. Mon] - Day 38
+* DB 교육 7일차
+  * SQL 심화 - (Advanced)
 
 <br>
 

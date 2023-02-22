@@ -288,10 +288,20 @@
 
 <br>
 
+### [23.2.21. Tue] - Day 39
+* DB 교육 8일차
+  * SQL 심화 - (ERD)
+
+<br>
+
+### [23.2.22. Wed] - Day 40
+* HTML, CSS 교육 1일차
+  * Web - Fundamentals of HTML and CSS
+
+<br>
+
 <br>
 
 <br>
 
 ### [위로](#kdt_2nd-education-program) / [뒤로](/README.md/#)
-
-

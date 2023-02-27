@@ -719,25 +719,119 @@
 
 # 1159번 농구 경기
 
+# N = int(input())
+
+# dict_ = {}
+# for n in range(N):
+#     player = input()
+#     x = player[0]
+#     if x not in dict_:
+#         dict_[x] = 1
+#     else:
+#         dict_[x] += 1
+
+# list_ = []
+# for key, value in dict_.items():
+#     if value >= 5:
+#         list_.append(key)
+        
+# list_ = sorted(list_)
+
+# if list_:
+#     print(*list_, sep='')
+# else:
+#     print('PREDAJA')
+
+# 1236  성지키기
+# 직사각형 모양의 성 성의 1층은 경비원이 보호
+# 모든 행과 열에 한명 이상의 경비원 배치
+
+# N, M = map(int, input().split())
+
+# matrix = []
+# for n in range(N):
+#     x = input()
+#     matrix.append(x)
+
+# row = 0
+# for i in range(N):
+#     for j in range(M):
+#         if matrix[i][j] == 'X':
+#             break
+#     else:
+#         row += 1
+
+# col = 0
+# for k in range(M):
+#     for l in range(N):
+#         if matrix[l][k] == 'X':
+#             break
+#     else:
+#         col += 1
+
+# if row >= col:
+#     print(row)
+# else:
+#     print(col)
+
+# 1247 부호
+# import sys
+
+# for n in range(3):
+#     result = 0
+#     X = int(input())
+#     for x in range(X):
+#         Y = int(sys.stdin.readline())
+#         result += Y
+
+#     if result == 0:
+#         print(0)
+#     elif result > 0:
+#         print('+')
+#     else:
+#         print('-')
+
+# 1268 임시 반장 정하기 < 미해결>
+
+# N = int(input())
+
+# list_ = []
+# for n in range(N):
+#     X = list(map(int, input().split()))
+#     list_.append(X)
+
+# dict_ = {}
+# for i in range(N): 
+#     cnt = 0
+#     for j in range(N):
+#         for k in range(5):
+#             if list_[i][k] == list_[j][k]:
+#                 cnt += 1
+#     dict_[i+1] = cnt - 5
+
+# result = []
+# for key, value in dict_.items():
+#     if value == max(dict_.values()):
+#         result.append(key)
+
+# print(min(result))
+
+# 1267 핸드폰 요금
 N = int(input())
 
-dict_ = {}
-for n in range(N):
-    player = input()
-    x = player[0]
-    if x not in dict_:
-        dict_[x] = 1
-    else:
-        dict_[x] += 1
+nums = map(int, input().split())
+result = 0
+result2 = 0
 
-list_ = []
-for key, value in dict_.items():
-    if value >= 5:
-        list_.append(key)
-        
-list_ = sorted(list_)
+for i in nums:
+    result += ((i // 30) + 1) * 10
+    result2 += ((i // 60) + 1) * 15
 
-if list_:
-    print(*list_, sep='')
+if result > result2:
+    print('M', result2)
+
+elif result == result2:
+    print('Y', 'M', result)
+
 else:
-    print('PREDAJA')
+    print('Y', result)

@@ -418,26 +418,72 @@
 
 
 # 2108 통계값
-N = int(input())
-dict_ = {}
+# N = int(input())
+# dict_ = {}
 
-nums = [int(input()) for _ in range(N)]
+# nums = [int(input()) for _ in range(N)]
 
-nums = sorted(nums)
+# nums = sorted(nums)
 
-# set_nums = set(nums)
-# if nums.count(set_nums[0]) == nums.count(set_nums[1]):
-#     min_nums = nums[set_nums[1]]
-for i in nums:
-    if i not in dict_:
-        dict_[i] = 1
+# # set_nums = set(nums)
+# # if nums.count(set_nums[0]) == nums.count(set_nums[1]):
+# #     min_nums = nums[set_nums[1]]
+# for i in nums:
+#     if i not in dict_:
+#         dict_[i] = 1
+#     else:
+#         dict_[i] += 1
+
+# nums_dict = list(dict_.keys())
+# result = dict_[nums_dict[0]]
+# if dict_[nums_dict[0]] == dict_[nums_dict[1]]:
+#     result = dict_[nums_dict[1]]
+
+
+# print(round(sum(nums)/len(nums)), nums[round(len(nums)/2)], result, max(nums)-min(nums), sep='\n')
+
+# 1010 다리놓기
+
+# def factorial(n):
+#     num = 1
+#     for i in range(1, n+1):
+#         num *= i
+#     return num
+
+# T = int(input())
+
+# for _ in range(T):
+#     n, m = map(int, input().split())
+#     bridge = factorial(m) // (factorial(n) * factorial(m - n))
+#     print(bridge)
+
+
+# 1094 막대기
+# X = int(input())
+# stick = [64, 32, 16, 8, 4, 2, 1]
+# cnt = 0
+
+# for i in range(len(stick)):
+#     if X >= stick[i]:
+#         cnt += 1
+#         X -= stick[i]
+
+#     if X == 0:
+#         break
+
+# print(cnt)
+
+
+# 1308번 D-Day
+
+root = []
+for i in range(36):
+    move = input()
+    if move not in root:
+        root.append(move) 
     else:
-        dict_[i] += 1
+        print('Invalid')
+        break
 
-nums_dict = list(dict_.keys())
-result = dict_[nums_dict[0]]
-if dict_[nums_dict[0]] == dict_[nums_dict[1]]:
-    result = dict_[nums_dict[1]]
-
-
-print(round(sum(nums)/len(nums)), nums[round(len(nums)/2)], result, max(nums)-min(nums), sep='\n')
+if len(root) == 36:
+    print('valid') 

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .card {
+      width: 1000px;
+      border: 1px solid black;
+      display: flex;
+      position: relative;
+      
+    }
+
+    .card__img1 {
+      width: 50%;
+    }
+    
+    .card__img2 {
+      position: absolute;
+      right :50%;
+      top: 0;
+      width: 150px;
+      height: 75px;
+    }
+
+    .card__main {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .card__header--display {
+      display: flex;
+      margin-left: 25px;
+      margin-bottom: 0;
+    }
+
+    .card__main--display {
+      display: flex;
+      margin-left: 25px;
+    }
+
+    .card__main--grow1 {
+      flex-grow: 1;
+    }
+    .card__main--grow2 {
+      flex-grow: 5;
+    }
+    .card__main--grow3 {
+      flex-grow: 1;
+      text-align: end;
+    }
+    
+    .card__header--grow1 {
+      flex-grow: 1;
+      margin-bottom: 0;
+    }
+    .card__header--grow2 {
+      flex-grow: 5;
+      margin-bottom: 0;
+    }
+    .card__header--grow3 {
+      flex-grow: 1;
+      text-align: end;
+      margin-bottom: 0;
+    }
+
+    .card__header--text {
+      line-height: 75px;
+    }
+
+  </style>
+</head>
+<body class="card">
+  <img class="card__img1" src="Tim.jpg" alt="팀_버너스리">
+  <img class="card__img2" src="02.png" alt="">
+  <div class="card__main">
+    <header class="card__header--display">
+      <h1 class="card__header--grow1">팀 버너스리</h1>
+      <p class="card__header--grow2"></p>
+      <h3 class="card__header--grow3 card__header--text">프로그래머</h3>
+    </header>
+    <sub class="card__main--display">
+      <p>1989년 월드 와이드 웹의 하이퍼텍스트 시스템을 고안하여 개발. 웹의 아버지</p>
+    </sub>
+    <main>
+      <div class="card__main--display">
+        <p class="card__main--grow1">국적</p>
+        <p class="card__main--grow2"></p>
+        <p class="card__main--grow3">영국</p>
+      </div>
+      <div class="card__main--display">
+        <p class="card__main--grow1">생년월일</p>
+        <p class="card__main--grow2"></p>
+        <p class="card__main--grow3">1955년 6월 8일</p>
+      </div>
+      <div class="card__main--display">
+        <p class="card__main--grow1">직업</p>
+        <p class="card__main--grow2"></p>
+        <p class="card__main--grow3">전산과학자, 프로그래머, 교수</p>
+      </div>
+      <div class="card__main--display">
+        <p class="card__main--grow1">출신 대학</p>
+        <p class="card__main--grow2"></p>
+        <p class="card__main--grow3">옥스퍼드 대학교 물리학 학사</p>
+      </div>
+      <div class="card__main--display">
+        <p class="card__main--grow1">추가 정보</p>
+        <p class="card__main--grow2"></p>
+        <p class="card__main--grow3"><a href="https://ko.wikipedia.org/wiki/팀_버너스리">https://ko.wikipedia.org/wiki/팀_버너스리</a></p>
+      </div>
+    </main>
+  </div>
+</body>
+</html>

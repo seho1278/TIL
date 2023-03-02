@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    .container {
+      height: auto;
+      width: 1000px;
+      border: 2px solid black;
+      display: flex;
+      flex-wrap: nowrap;
+      /* align-content: center;
+      justify-content: center; */
+      flex-direction: column;
+      margin: 10px;
+      background-color: gray;
+    }
+
+    .container1 {
+      height: 100px;
+      border: 2px solid black;
+      display: flex;
+      flex-wrap: wrap;
+      align-content: center;
+      justify-content: center;
+      flex-direction: row;
+      margin: 25px;
+      background-color: lightblue;
+    }
+
+    .container2 {
+      height: 500px;
+      border: 2px solid black;
+      display: flex;
+      flex-wrap: nowrap;
+      justify-content: center;
+      flex-direction: column;
+      margin: 25px;
+      background-color: lightblue;
+    }
+
+    .C1box1 {
+      height: 70px;
+      border: 2px solid black;
+      text-align: center;
+      line-height: 65px;
+      flex-grow: 1;
+      margin: 25px;
+      font-size: 1.5em;
+    }
+
+    .C1box2 {
+      height: 70px;
+      border: 2px solid black;
+      text-align: center;
+      line-height: 65px;
+      flex-grow: 1;
+      margin: 25px;
+      font-size: 1.5em;
+      background-color: lightblue;
+    }
+
+    .C1box2:hover {
+      background-color: lightyellow;
+    }
+
+    .C1box2:active {
+      box-shadow: inset -2px -2px 3px rgba(255, 255, 255, 0.6), inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+    }
+
+    .C1text1 {
+      flex-grow: 3;
+      text-align: center;
+      line-height: 65px;
+      font-size: 2em;
+      margin: 25px;
+    }
+
+    .C2box1 {
+      height: 100px;
+      flex-grow: 1;
+      margin: 25px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      display: flex;
+      align-items: center;
+    }
+
+    .C2box2 {
+      height: 100px;
+      border: 2px solid black;
+      display: flex;
+      flex-wrap: nowrap;
+      align-content: center;
+      justify-content: center;
+      flex-direction: row;
+      margin: 25px;
+      margin-top: 10px;
+      margin-bottom: 25px;
+      background-color: lightyellow;
+      flex-grow: 1;
+    }
+
+    .C2text1 {
+      line-height: 30px;
+      font-size: 1.5em;
+    }
+
+    .C2text2 {
+      line-height: 30px;
+      font-size: 1.2em;
+      flex-grow: 1;
+      margin: 10px;
+      display: flex;
+      align-items: center;
+    }
+
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="container1">
+      <div class="C1box1">Logo</div>
+      <p class="C1text1">NavBar</p>
+      <button class="C1box2"><a href="https://developer.mozilla.org/ko/docs/Web/CSS/:hover">Login</a> </button>
+    </div>
+
+    <div class="container2">
+      <div class="C2box1 C2text1">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo iusto fuga nesciunt ex cupiditate dignissimos nam consequuntur vel consectetur! Temporibus officiis quam quis sint, nemo suscipit pariatur exercitationem libero amet.</div>
+      <div class="C2box1 C2text1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque ut facere totam repellendus deserunt id corporis, esse illo iste, vero incidunt dicta fuga, blanditiis nihil quaerat quod quo. Quod, at.</div>
+      <div class="C2box2">
+        <div class="C2text2">Lorem ipsum dolor sit amet consectetur adipisicing elit. </div>
+        <div class="C2text2">Eaque quo laborum at in eos sapiente illo nisi vero amet accusamus perspiciatis eligendi sed ea,</div>
+        <div class="C2text2">aut molestias praesentium, dolorem sequi quia!</div>
+      </div>
+    </div>
+
+    <div class="container1"><footer>푸터</footer></div>
+  </div>
+</body>
+</html>

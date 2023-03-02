@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    .container {
+      height: 700px;
+      width: 1000px;
+      border: 2px solid black;
+      display: flex;
+      flex-wrap: nowrap;
+      align-content: center;
+      justify-content: center;
+      flex-direction: column;
+      margin: 10px;
+      background-color: gray;
+    }
+
+    .container1 {
+      height: 100px;
+      border: 2px solid black;
+      display: flex;
+      flex-wrap: wrap;
+      align-content: center;
+      justify-content: center;
+      flex-direction: row;
+      margin: 25px;
+      background-color: lightblue;
+    }
+
+    .container2 {
+      height: 100%;
+      border: 2px solid black;
+      display: flex;
+      flex-wrap: nowrap;
+      justify-content: center;
+      flex-direction: column;
+      margin: 25px;
+      background-color: lightblue;
+    }
+
+    .C1box1 {
+      height: 70px;
+      border: 2px solid black;
+      text-align: center;
+      line-height: 65px;
+      flex-grow: 1;
+      margin: 25px;
+      font-size: 1.5em;
+    }
+
+    .C1box2 {
+      height: 70px;
+      border: 2px solid black;
+      text-align: center;
+      line-height: 65px;
+      flex-grow: 1;
+      margin: 25px;
+      font-size: 1.5em;
+    }
+
+    .C1text1 {
+      flex-grow: 3;
+      text-align: center;
+      line-height: 65px;
+      font-size: 2em;
+      margin: 25px;
+    }
+
+    /* .C2text1 {
+      text-align: center;
+      line-height: 65px;
+      font-size: 2em;
+      margin: 0;
+    } */
+
+    .C2box1 {
+      height: 100%;
+      flex-grow: 1;
+      /* border: 2px solid black; */
+      margin: 35px;
+      display: flex;
+      /* align-items: center; */
+    }
+
+    .C2text1 {
+      /* text-align: center; */
+      line-height: 30px;
+      font-size: 1.5em;
+    }
+
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="container1">
+      <div class="C1box1">Logo</div>
+      <p class="C1text1">NavBar</p>
+      <div class="C1box2">Login</div>
+    </div>
+
+    <div class="container2">
+      <div class="C2box1 C2text1">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo iusto fuga nesciunt ex cupiditate dignissimos nam consequuntur vel consectetur! Temporibus officiis quam quis sint, nemo suscipit pariatur exercitationem libero amet.</div>
+      <div class="C2box1 C2text1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque ut facere totam repellendus deserunt id corporis, esse illo iste, vero incidunt dicta fuga, blanditiis nihil quaerat quod quo. Quod, at.</div>
+      <div class="C2box1 C2text1">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias nulla, possimus id deleniti illo doloremque atque cupiditate voluptatibus laborum? Dolore, explicabo est a praesentium architecto excepturi ad laborum deleniti blanditiis!</div>
+    </div>
+  </div>
+</body>
+</html>

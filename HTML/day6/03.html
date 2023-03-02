@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .card {
+      display: flex;
+      flex-direction: column;
+      position: relative;
+    }
+
+    .card__header {
+      height: 75px;
+      display: flex;
+      align-items: center;
+      flex-direction: row;
+      justify-content: space-between;
+      border-bottom: 1px solid black;
+
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      background-color: white;
+    }
+
+    .card__main {
+      padding-top: 75px;
+      display: flex;
+      flex-wrap: wrap;
+      margin-right: 25px;
+      margin-left: 25px;
+    }
+
+    .card__img {
+      
+      width: 100px;
+      height: 50px;
+      margin: 10px;
+    }
+
+    .card__header--grow1 {
+      flex-grow: 1;
+      margin-left: 25px;
+    }
+
+    .card__header--grow2 {
+      flex-grow: 5;
+    }
+
+    .card__header--grow3 {
+      flex-grow: 1;
+      text-align: end;
+      margin-right: 25px;
+      line-height: 50px;
+    }
+
+    .card__main--grow1 {
+      flex-grow: 1;
+      text-align: center;
+    }
+
+  </style>
+</head>
+<body class="card">
+  <header class="card__header">
+    <img class="card__header--grow1 card__img" src="04.png" alt="">
+    <p class="card__header--grow2"></p>
+    <p class="card__header--grow3">Hyper S23</p>
+  </header>
+  <main class="card__main">
+    <div class="card__main--grow1">
+      <p>하이퍼 S23 Super</p>
+      <img src="03.png" alt="">
+      <p>몰입형 게임 최적화</p>
+      <p>화면 크기</p>
+      <p>173.1mm</p>
+      <p>3,088 x 1,440</p>
+      <p>(Quad HD+ 엣지 디스플레이)</p>
+      <p>최대 밝기</p>
+      <p>1,750 니트</p>
+      <p>가변주사율</p>
+      <p>1~120 Hz</p>
+    </div>
+    <div class="card__main--grow1">
+      <p>하이퍼 S23+</p>
+      <img src="03.png" alt="">
+      <p>야외에서도 뛰어난 선명도</p>
+      <p>화면 크기</p>
+      <p>166.5mm</p>
+      <p>2,340 x 1,080</p>
+      <p>(FHD+ 플랫 디스플레이)</p>
+      <p>최대 밝기</p>
+      <p>1,750 니트</p>
+      <p>가변주사율</p>
+      <p>48~120 Hz</p>
+    </div>
+    <div class="card__main--grow1">
+      <p>하이퍼 S23</p>
+      <img src="03.png" alt="">
+      <p>야외에서도 뛰어난 선명도</p>
+      <p>화면 크기</p>
+      <p>153.9mm</p>
+      <p>2,340 x 1,080</p>
+      <p>(FHD+ 플랫 디스플레이)</p>
+      <p>최대 밝기</p>
+      <p>1,750 니트</p>
+      <p>가변주사율</p>
+      <p>48~120 Hz</p>
+    </div>
+  </main>
+  
+</body>
+</html>

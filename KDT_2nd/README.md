@@ -300,6 +300,39 @@
 
 <br>
 
+### [23.2.23. Thu] - Day 41
+* HTML, CSS 교육 2일차
+  * Web - The box model
+
+<br>
+
+### [23.2.24. Fri] - Day 42
+* 인사이드 특강
+* 페어 프로그래밍
+
+<br>
+
+## Week 10
+
+### [23.2.27. Mon] - Day 43
+* HTML, CSS 교육 3일차
+  * Web - Positioning for CSS layout
+
+<br>
+
+### [23.2.28. Tue] - Day 44
+* HTML, CSS 교육 4일차
+  * Web - Floating for CSS layout
+  * Web - Flexible box for CSS layout
+
+<br>
+
+### [23.3.2. Thu] - Day 45
+* HTML, CSS 교육 5일차
+  * Web - Semantic Web
+
+<br>
+
 <br>
 
 <br>

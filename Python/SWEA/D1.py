@@ -17,3 +17,12 @@
 # for n in range(N, -1, -1):
 #     print(n, end=' ')
 
+T = int(input())
+
+for t in range(T):
+    numbers = map(int, input().split())
+    result = 0
+    for i in numbers:
+        if i % 2 == 1:
+            result += i
+    print(f'#{t+1} {result}')

@@ -270,46 +270,67 @@
 #                 return 'D0'
 
 
+# T = int(input())
+
+# rank_list = ['A+', 'A0', 'A-', 'B+', 'B0', 'B-', 'C+', 'C0', 'C-', 'D0'] 
+# for t in range(T):
+#     N, K = map(int, input().split())
+#     r_dict = {}
+#     s_dict = {}
+#     for n in range(1, N + 1):
+#         A, B, C = map(int, input().split())
+#         result = (A*0.35) + (B*0.45) + (C*0.2)
+#         r_dict[n] = result
+#         rank = sorted(r_dict.values(), reverse=True)
+
+#     for k in range(len(rank_list)):
+#         cnt = 0
+#         for m in range(N):
+#             s_dict[rank[]]
+
+#     print(rank.index(r_dict[K]))
+
+
+#     T = int(input())
+# s_lst = ['A+', 'A0', 'A-', 'B+', 'B0', 'B-', 'C+', 'C0', 'C-', 'D0']
+# for i in range(1, T+1):
+#     N, K = map(int, input().split())
+#     stu_dict = {}
+#     sort_dict = {}
+#     lst = []
+#     r_lst = []
+#     num_lst = list(range(N))
+#     for j in range(1, N+1):
+#         A, B, C = list(map(int, input().split()))
+#         stu_dict[j] = (0.35*A)+(0.45*B)+(0.2*C)
+#         lst.append((0.35*A)+(0.45*B)+(0.2*C))
+#         r_lst = sorted(lst,reverse=True)
+#     for k in range(len(s_lst)):
+#         cnt = 0
+#         for n in num_lst:
+#             sort_dict[r_lst[num_lst.pop(0)]] = s_lst[k]
+#             cnt += 1
+#             if cnt == int(N/10):
+#                 break
+#     print(f'#{i} {sort_dict[stu_dict[K]]}')
+
+
+# 1976번 시각 덧셈
+
 T = int(input())
 
-rank_list = ['A+', 'A0', 'A-', 'B+', 'B0', 'B-', 'C+', 'C0', 'C-', 'D0'] 
 for t in range(T):
-    N, K = map(int, input().split())
-    r_dict = {}
-    s_dict = {}
-    for n in range(1, N + 1):
-        A, B, C = map(int, input().split())
-        result = (A*0.35) + (B*0.45) + (C*0.2)
-        r_dict[n] = result
-        rank = sorted(r_dict.values(), reverse=True)
+    h1, m1, h2, m2 = map(int, input().split())
 
-    for k in range(len(rank_list)):
-        cnt = 0
-        for m in range(N):
-            s_dict[rank[]]
+    h3 = h1 + h2
+    m3 = m1 + m2
 
-    print(rank.index(r_dict[K]))
+    if m3 >= 60:
+        m3 -= 60
+        h3 += 1
 
+    if h3 >= 13:
+        h3 -= 12
 
-    T = int(input())
-s_lst = ['A+', 'A0', 'A-', 'B+', 'B0', 'B-', 'C+', 'C0', 'C-', 'D0']
-for i in range(1, T+1):
-    N, K = map(int, input().split())
-    stu_dict = {}
-    sort_dict = {}
-    lst = []
-    r_lst = []
-    num_lst = list(range(N))
-    for j in range(1, N+1):
-        A, B, C = list(map(int, input().split()))
-        stu_dict[j] = (0.35*A)+(0.45*B)+(0.2*C)
-        lst.append((0.35*A)+(0.45*B)+(0.2*C))
-        r_lst = sorted(lst,reverse=True)
-    for k in range(len(s_lst)):
-        cnt = 0
-        for n in num_lst:
-            sort_dict[r_lst[num_lst.pop(0)]] = s_lst[k]
-            cnt += 1
-            if cnt == int(N/10):
-                break
-    print(f'#{i} {sort_dict[stu_dict[K]]}')
+    print(f'#{t+1} {h3} {m3}')
+    

@@ -474,16 +474,3 @@
 # print(cnt)
 
 
-# 1308번 D-Day
-
-root = []
-for i in range(36):
-    move = input()
-    if move not in root:
-        root.append(move) 
-    else:
-        print('Invalid')
-        break
-
-if len(root) == 36:
-    print('valid') 

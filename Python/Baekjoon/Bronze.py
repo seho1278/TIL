@@ -817,21 +817,189 @@
 # print(min(result))
 
 # 1267 핸드폰 요금
+# N = int(input())
+
+# nums = map(int, input().split())
+# result = 0
+# result2 = 0
+
+# for i in nums:
+#     result += ((i // 30) + 1) * 10
+#     result2 += ((i // 60) + 1) * 15
+
+# if result > result2:
+#     print('M', result2)
+
+# elif result == result2:
+#     print('Y', 'M', result)
+
+# else:
+#     print('Y', result)
+
+
+# 1296 팀 이름 정하기
+# name = input()
+# N = int(input())
+# list_= sorted([input() for i in range(N)])
+# X, Y = 0, 0
+# for i in range(N):
+#     L = name.count('L') + list_[i].count('L')
+#     O = name.count('O') + list_[i].count('O')
+#     V = name.count('V') + list_[i].count('V')
+#     E = name.count('E') + list_[i].count('E')
+#     result = ((L+O)*(L+V)*(L+E)*(O+V)*(O+E)*(V+E)) % 100
+
+#     if X < result:
+#         X = result
+#         Y = i
+
+# print(list_[Y])
+
+
+# 1297번 TV 크기
+# D, H, W = map(int, input().split())
+
+# x = ((H**2)*(D**2)/((H**2)+(W**2)))**(1/2)
+# y = ((W**2)*(D**2)/((H**2)+(W**2)))**(1/2)
+
+# print(int(x), int(y))
+
+# 1524번 세준세비
+
+# from collections import deque
+
+# T = int(input())
+
+# for t in range(T):
+#     input()
+#     X = map(int, input().split())
+#     S = deque(sorted(list(map(int, input().split()))))
+#     B = deque(sorted(list(map(int, input().split()))))
+
+#     while S and B:
+#         if S[0] >= B[0]:
+#             B.popleft()
+#         else:
+#             S.popleft()
+
+#     if S:
+#         print('S')
+#     elif B:
+#         print('B')
+#     else:
+#         print('C')
+
+# 1357번 뒤집힌 덧셈
+
+# def rev(x):
+#     x1 = x[::-1]
+#     return x1
+
+# X, Y = input().split()
+
+# print(int(rev(str(int(rev(X)) + int(rev(Y))))))
+
+
+# 1551번 수열의 변화
+
+# N, K = map(int, input().split())
+# A = list(map(int, input().split(',')))
+
+# if K == 0:
+#     print(*A, sep=',')
+
+# else:
+#     for k in range(K):
+#         B = []
+
+#         for i in range(N-1):
+#             B.append(A[i+1]-A[i])
+
+#         N -= 1
+#         A = B
+
+#     print(*B, sep=',')
+
+
+# 1855 암호
+# K = int(input())
+
+# matrix = [[] for i in range(K)]
+
+# S = input()
+# cnt = 0
+# for i in range(int(len(S)/K)):
+#     for j in range(K):
+#         matrix[j].append(S[cnt])
+#         cnt += 1
+
+# print(matrix)
+
+# result = []
+# cnt2 = 0
+# for i in range(K):
+#     if cnt2 % 2 == 0:
+#         for i in matrix[cnt2]:
+#             result.append(i)
+#         cnt2 += 1
+#     else:
+#         for i in matrix[cnt2][::-1]:
+#             result.append(i)
+#         cnt2 += 1
+
+# print(*result, sep='')
+
+# K = int(input())
+# S = input()
+# matrix = [[0] * K for i in range(int(len(S)/K))]
+
+# cnt = 0
+# cnt2 = 0
+# for i in range(int(len(S)/K)):
+#     if cnt % 2 == 0:
+#         for j in range(K):
+#             matrix[i][j] = S[cnt2]
+#             cnt2 += 1
+#         cnt += 1
+#     else:
+#         for k in reversed(range(K)):
+#             matrix[i][k] = S[cnt2]
+#             cnt2 += 1
+#         cnt += 1
+
+# result = []
+
+# for i in range(K):
+#     for j in range(int(len(S)/K)):
+#         result.append(matrix[j][i])
+
+# print(*result, sep='')
+
+
+# 1834번 나머지와 몫이 같은 수
+
+# N = int(input())
+
+# result = 0
+
+# for i in range(1, N):
+#     result += (N+1)*i
+
+# print(result)
+
+
+# 1350번 진짜 공간
 N = int(input())
-
-nums = map(int, input().split())
+f = map(int, input().split())
+c = int(input())
 result = 0
-result2 = 0
 
-for i in nums:
-    result += ((i // 30) + 1) * 10
-    result2 += ((i // 60) + 1) * 15
+for i in f:
+    if i % c == 0:
+        result += i//c
+    else:
+        result += i//c + 1
 
-if result > result2:
-    print('M', result2)
+print(result*c)
 
-elif result == result2:
-    print('Y', 'M', result)
 
-else:
-    print('Y', result)

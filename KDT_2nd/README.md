@@ -19,6 +19,10 @@
 
 9. [Week 9](#week-9)
 
+10. [Week 10](#week-10)
+
+11. [Week 11](#week-11)
+
 ---
 <br>
 
@@ -330,6 +334,32 @@
 ### [23.3.2. Thu] - Day 45
 * HTML, CSS 교육 5일차
   * Web - Semantic Web
+
+### [23.3.3. Fri] - Day 46
+* 페어 프로그래밍
+
+<br>
+
+## Week 11
+
+### [23.3.6. Mon] - Day 47
+* HTML, CSS 교육 6일차
+  * Web - Fundamentals of Bootstrap
+
+<br>
+
+### [23.3.7. Tue] - Day 48
+* HTML, CSS 교육 7일차
+  * Web - Fundamentals of Grid system
+
+<br>
+
+### [23.3.8. Wed] - Day 49
+* HTML, CSS 교육 8일차
+  * Web - Grid system for Responsive web
+
+### [23.3.9. Thu] - Day 50
+* 페어 프로그래밍
 
 <br>
 

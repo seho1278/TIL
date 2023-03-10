@@ -989,17 +989,39 @@
 
 
 # 1350번 진짜 공간
-N = int(input())
-f = map(int, input().split())
-c = int(input())
-result = 0
+# N = int(input())
+# f = map(int, input().split())
+# c = int(input())
+# result = 0
 
-for i in f:
-    if i % c == 0:
-        result += i//c
+# for i in f:
+#     if i % c == 0:
+#         result += i//c
+#     else:
+#         result += i//c + 1
+
+# print(result*c)
+
+
+#2490번 윷놀이
+
+for i in range(3):
+    N = list(map(int, input().split()))
+    cnt = 0
+    cnt2 = 0
+    for j in N:
+        if j == 1:
+            cnt2 += 1
+        else:
+            cnt += 1
+
+    if cnt == 1:
+        print('A')
+    elif cnt == 2:
+        print('B')
+    elif cnt == 3:
+        print('C')
+    elif cnt == 4:
+        print('D')
     else:
-        result += i//c + 1
-
-print(result*c)
-
-
+        print('E')

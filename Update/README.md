@@ -7,9 +7,8 @@
 <br>
 
 * Add
-  * KDT_2nd 46일차 교육내용 추가
+  * KDT_2nd 52일차 교육내용 추가
   * 백준 알고리즘 문제풀기
-  * 프로그래머스 SQL 문제풀기
   * CSS 공부하기
 
 <br>
@@ -93,6 +92,8 @@
 * [23. 3. 2. Thu](Update_list/23.3.2.Thu.md)
 
 * [23. 3. 9. Thu](Update_list/23.3.9.Thu.md)
+
+* [23. 3. 10. Fri](Update_list/23.3.10.Fri.md)
 
 <br>
 

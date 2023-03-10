@@ -474,3 +474,20 @@
 # print(cnt)
 
 
+# 2167번 2차원 배열의 합 (시간 초과)
+import sys
+
+N, M = map(int, input().split())
+
+matrix = [list(map(int, sys.stdin.readline().split())) for i in range(N)]
+
+K = int(input())
+
+for k in range(K):
+    result = 0
+    i, j, x, y = map(int, sys.stdin.readline().split())
+    for a in range(i-1, x):
+        for b in range(j-1, y):
+            result += matrix[a][b]
+        
+    print(result)

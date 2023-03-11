@@ -475,19 +475,59 @@
 
 
 # 2167번 2차원 배열의 합 (시간 초과)
-import sys
+# import sys
 
-N, M = map(int, input().split())
+# N, M = map(int, input().split())
 
-matrix = [list(map(int, sys.stdin.readline().split())) for i in range(N)]
+# matrix = [list(map(int, sys.stdin.readline().split())) for i in range(N)]
 
-K = int(input())
+# K = int(input())
 
-for k in range(K):
-    result = 0
-    i, j, x, y = map(int, sys.stdin.readline().split())
-    for a in range(i-1, x):
-        for b in range(j-1, y):
-            result += matrix[a][b]
+# for k in range(K):
+#     result = 0
+#     i, j, x, y = map(int, sys.stdin.readline().split())
+#     for a in range(i-1, x):
+#         for b in range(j-1, y):
+#             result += matrix[a][b]
         
-    print(result)
+#     print(result)
+
+
+# 11723 집합
+
+import sys
+M = int(sys.stdin.readline())
+
+S = set()
+
+for m in range(M):
+    s = sys.stdin.readline().split()
+
+    if len(s) == 1:
+        if s[0] == 'all':
+            S = set([i for i in range(1, 21)])
+        else:
+            S = set()
+
+    else:
+        s1, x = s[0], s[1]
+        x = int(x)
+
+        if s1 == 'add':
+            S.add(x)
+
+        elif s1 == 'remove':
+            S.discard(x)
+
+        elif s1 == 'check':
+            if x in S:
+                print(1)
+            else:
+                print(0)
+        
+        elif s1 == 'toggle':
+            if x in S:
+                S.discard(x)
+            else:
+                S.add(x)
+        

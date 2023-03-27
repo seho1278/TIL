@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .blue {
+      color: lightblue;
+    }
+  </style>
+</head>
+<body>
+  <h1></h1>
+  <button id="btn">클릭</button>
+  <input type="text" id="text-input">
+
+  <script>
+    const inputTag = document.querySelector('#text-input')
+    const h1Tag = document.querySelector('h1')
+
+    inputTag.addEventListener('input', (event) => {
+        h1Tag.textContent = event.target.value
+      })
+
+
+    const btn = document.querySelector('#btn')
+    
+    btn.addEventListener('click', (event) => {
+      // h1Tag.classList.toggle('blue') // toggle은 속성이 있으면 빼고 없으면 넣어주는 기능을 수행
+
+      if (h1Tag.classList.value) {
+        h1Tag.classList.remove('blue')
+      } else {
+        h1Tag.classList.add('blue')
+      }
+    })
+  </script>
+</body>
+</html>

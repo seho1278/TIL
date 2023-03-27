@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+  integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+</head>
+<body>
+
+  <button id="btn">생성</button>
+  <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.21/lodash.min.js"></script>
+  <script>
+    const btnTag = document.querySelector('#btn')
+    const win = [11, 23, 25, 30, 32, 40]
+    const bonus = [42]
+    const winbonus = win + ',' + bonus
+    console.log(winbonus)
+
+    btnTag.addEventListener('click', (event) => {
+      const numbers = _.range(1, 46)
+
+      const sixnumbers = _.sampleSize(numbers, 6)
+      const x = _.intersection(winbonus, sixnumbers)
+
+
+      console.log(x.length)
+
+     
+
+
+      
+      console.log("당첨 번호 : " + "%s" + " 보너스 번호 : "+ "%s" + " 랜덤 번호 : "+ "%s" , win, bonus, sixnumbers)
+    })
+
+    
+    inputTag.addEventListener('input', (event) => {
+      if (!(event.target.value in win)) {
+        if (win.lenth < 7) {
+          win.push(event.target.value)
+        }
+      }
+    })
+
+    function saveName() {
+      var name = document.getElementById('win').value
+      win.push(name)
+    }
+
+    btnTag2.addEventListener('click', (event) => {
+      
+    })
+   
+    
+
+    
+  
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -23,6 +23,10 @@
 
 11. [Week 11](#week-11)
 
+12. [Week 12](#week-12)
+
+13. [Week 13](#week-13)
+
 ---
 <br>
 
@@ -364,6 +368,61 @@
 
 ### [23.3.10. Fri] - Day 51
 * 페어 프로그래밍
+
+<br>
+
+## Week 12
+
+### [23.3.13. Mon] - Day 52
+* Javascript 교육 1일차
+  * JS - History of JavaScript
+  * JS - JavaScript and DOM
+
+<br>
+
+### [23.3.14. Tue] - Day 53
+* Javascript 교육 2일차
+  * JS - Basic syntax of JavaScript
+
+<br>
+
+### [23.3.15. Wed] - Day 54
+* Javascript 교육 3일차
+  * JS - Function
+  * JS - Object
+  * JS - Array
+
+### [23.3.16. Thu] - Day 55
+* Javascript 교육 4일차
+  * JS - Controlling event
+
+
+### [23.3.17. Fri] - Day 56
+* 페어 프로그래밍
+
+<br>
+
+## Week 13
+
+### [23.3.20. Mon] - Day 57
+* Django 교육 1일차
+  * Django - Understanding django and framework
+
+<br>
+
+### [23.3.21. Tue] - Day 58
+* Django 교육 2일차
+  * Django - Django design pattern
+
+<br>
+
+### [23.3.22. Wed] - Day 59
+* Django 교육 3일차
+  * Django - Django template
+
+### [23.3.23. Thu] - Day 60
+* Django 교육 4일차
+  * Django - Django URLs
 
 
 <br>

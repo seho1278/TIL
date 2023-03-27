@@ -1003,25 +1003,180 @@
 # print(result*c)
 
 
-#2490번 윷놀이
+# 2490번 윷놀이
 
-for i in range(3):
-    N = list(map(int, input().split()))
-    cnt = 0
-    cnt2 = 0
-    for j in N:
-        if j == 1:
-            cnt2 += 1
-        else:
-            cnt += 1
+# for i in range(3):
+#     N = list(map(int, input().split()))
+#     cnt = 0
+#     cnt2 = 0
+#     for j in N:
+#         if j == 1:
+#             cnt2 += 1
+#         else:
+#             cnt += 1
 
-    if cnt == 1:
-        print('A')
-    elif cnt == 2:
-        print('B')
-    elif cnt == 3:
-        print('C')
-    elif cnt == 4:
-        print('D')
-    else:
-        print('E')
+#     if cnt == 1:
+#         print('A')
+#     elif cnt == 2:
+#         print('B')
+#     elif cnt == 3:
+#         print('C')
+#     elif cnt == 4:
+#         print('D')
+#     else:
+#         print('E')
+
+
+# 2741번 N찍기
+# N = int(input())
+
+# for i in range(1, N+1):
+#     print(i)
+
+
+# 10872 팩토리얼
+# N = int(input())
+
+# result = 1
+# if N > 0:
+#     for i in range(1, N+1):
+#         result *= i
+# print(result)
+
+
+# 2742번 기찍 N
+# N = int(input())
+
+# for i in range(N, 0, -1):
+#     print(i)
+
+
+# 2596번 비밀편지(틀린 코드)
+# N = int(input())
+# M = input()
+# dict_ = {
+#     'A': '000000',
+#     'B': '001111',
+#     'C': '010011',
+#     'D': '011100',
+#     'E': '100110',
+#     'F': '101001',
+#     'G': '110101',
+#     'H': '111010',
+#     }
+# v = list(dict_.values())
+# k = list(dict_.keys())
+# result = []
+
+# cnt = 0
+
+# for i in range(0, len(M), 6):
+#     x = M[i:i+6]
+#     cnt += 1
+#     if x in v:
+#         for j in range(8):
+#             if x == v[j]:
+#                 result.append(k[j])
+#     else:
+#         t = 0
+#         for i in range(8):
+#             cnt2 = 0
+#             for l in range(6):
+#                 if x[l] != v[i][l]:
+#                     cnt2 += 1
+#             if cnt <= 1:
+#                 result.append(k[i])
+#                 break
+#             else:
+#                 t += 1
+#         if t == 8:
+#             break
+
+# if len(result) == N:
+#     print(*result, sep='')
+# else:
+#     print(cnt)
+
+# 2596번 다른사람 코드
+         
+# def fcn(arr):
+#     k = []
+#     k_temp = []
+#     for i in range(8):
+#         check = 0
+#         for j in range(6):
+#             if arr[j] != p[i][j]:
+#                 check += 1
+#         k.append([check,i])
+#         k.sort()
+
+#     if k[0][0] == 1:
+#         return k[0][1]
+#     else:
+#         return -1
+
+
+# p = [['0', '0', '0', '0', '0', '0'],  # A
+#      ['0', '0', '1', '1', '1', '1'],  # B
+#      ['0', '1', '0', '0', '1', '1'],  # C
+#      ['0', '1', '1', '1', '0', '0'],  # D
+#      ['1', '0', '0', '1', '1', '0'],  # E
+#      ['1', '0', '1', '0', '0', '1'],  # F
+#      ['1', '1', '0', '1', '0', '1'],  # G
+#      ['1', '1', '1', '0', '1', '0']]  # H
+# pp = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H']
+
+# n = int(input())
+# arr = list(str(input()))
+# ans = []
+# err = 0
+
+# for i in range(n):
+#     ch = False
+#     for j in range(8):
+#         if arr[0:6] == p[j]:
+#             ans.append(pp[j])
+#             ch = True
+#         else:
+#             pass
+
+#     if ch == False:
+#         if fcn(arr[0:6]) == -1:
+#             err = 1
+#             m = i+1
+#             break
+#         else:
+#             ans.append(pp[fcn(arr[0:6])])
+#     del arr[0:6]
+#     if err == 1:
+#         break
+
+# if err == 1:
+#     print(m)
+# else:
+#     for i in range(n):
+#         print(ans[i], end='')
+
+
+# 2526번 사이클
+
+# N, P = map(int, input().split())
+# X = N
+# list_ = []
+
+# while True:
+#     result = (X * N) % P
+#     if result in list_:
+#         print(len(list_) - list_.index(result))
+#         break
+
+#     list_.append(result)
+#     X = result
+        
+
+# 20205번 교수님 그림이 깨지는데요?
+N, K = map(int, input().split())
+
+matrix = [[0] * K for _ in range(N)]
+
+print(matrix)

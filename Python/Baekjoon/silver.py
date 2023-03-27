@@ -495,39 +495,146 @@
 
 # 11723 집합
 
-import sys
-M = int(sys.stdin.readline())
+# import sys
+# M = int(sys.stdin.readline())
 
-S = set()
+# S = set()
 
-for m in range(M):
-    s = sys.stdin.readline().split()
+# for m in range(M):
+#     s = sys.stdin.readline().split()
 
-    if len(s) == 1:
-        if s[0] == 'all':
-            S = set([i for i in range(1, 21)])
-        else:
-            S = set()
+#     if len(s) == 1:
+#         if s[0] == 'all':
+#             S = set([i for i in range(1, 21)])
+#         else:
+#             S = set()
 
+#     else:
+#         s1, x = s[0], s[1]
+#         x = int(x)
+
+#         if s1 == 'add':
+#             S.add(x)
+
+#         elif s1 == 'remove':
+#             S.discard(x)
+
+#         elif s1 == 'check':
+#             if x in S:
+#                 print(1)
+#             else:
+#                 print(0)
+        
+#         elif s1 == 'toggle':
+#             if x in S:
+#                 S.discard(x)
+#             else:
+#                 S.add(x)
+        
+
+# 1475번 방번호
+
+# N = input()
+
+# S = ['0', '1', '2', '3', '4', '5', '6', '6', '7', '8']
+# cnt = 1
+
+# for i in N:    
+#     if i == '9':
+#         i = '6'
+#         if '6' in S:
+#             S.remove(i)
+#         else:
+#             S.append('0')
+#             S.append('1')
+#             S.append('2')
+#             S.append('3')
+#             S.append('4')
+#             S.append('5')
+#             S.append('6')
+#             S.append('6')
+#             S.append('7')
+#             S.append('8')            
+#             cnt +=1
+#             S.remove(i)
+
+#     else:
+#         if i in S:
+#             S.remove(i)
+#         else:
+#             S.append('0')
+#             S.append('1')
+#             S.append('2')
+#             S.append('3')
+#             S.append('4')
+#             S.append('5')
+#             S.append('6')
+#             S.append('6')
+#             S.append('7')
+#             S.append('8')            
+#             cnt +=1
+#             S.remove(i)
+
+# print(cnt)
+
+
+# 2740 행렬 곱셈 (아직 다 못품)
+
+# N, M = map(int, input().split())
+# matrix = []
+# for i in range(N):
+#     matrix.append(list(input().split()))
+
+# K, L = map(int, input().split())
+# matrix2 = []
+# for i in range(K):
+#     matrix2.append(list(input().split()))
+
+
+# print(matrix)
+# print(matrix2)
+
+# 1244번 스위치 켜고 끄기 (indexerror)
+sw = int(input())
+swl = list(map(int, input().split()))
+N = int(input())
+for i in range(N):
+    x, y = map(int, input().split())
+
+    if x == 1:
+        for i in range(y-1, sw, y):
+            if swl[i] == 1:
+                swl[i] = 0
+            else:
+                swl[i] = 1
+    
     else:
-        s1, x = s[0], s[1]
-        x = int(x)
-
-        if s1 == 'add':
-            S.add(x)
-
-        elif s1 == 'remove':
-            S.discard(x)
-
-        elif s1 == 'check':
-            if x in S:
-                print(1)
+        cnt = 0
+        for j in range(1, y):
+            if swl[y-1-j] == swl[y-1+j]:
+                cnt += 1
+                continue
             else:
-                print(0)
-        
-        elif s1 == 'toggle':
-            if x in S:
-                S.discard(x)
+                break
+
+        for k in range(y-1-cnt, y+cnt):
+            if swl[k] == 1:
+                swl[k] = 0
             else:
-                S.add(x)
-        
+                swl[k] = 1
+
+cnt2 = 0
+
+while cnt2 != len(swl):
+    result = []
+    if len(swl) - cnt2 >= 20:
+        for l in range(cnt2, 20):
+            cnt2 += 1
+            result.append(swl[l])
+    else:
+        for m in range(cnt2, len(swl)):
+            cnt2 += 1
+            result.append(swl[m])
+
+    print(*result)
+    

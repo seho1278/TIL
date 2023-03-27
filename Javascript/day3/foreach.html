@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+    const fruits = ['apple', 'banana', 'coconut']
+
+    fruits.forEach(function (fruit) {
+      console.log(fruit)
+    })
+
+    // map
+    const numbers = [1, 2, 3]
+    const doubleNumber = numbers.map(function (number) {
+      return number * 2
+    })
+
+    const doubleNumber2 = numbers.map((number) => {
+      return number * 2
+    })
+
+    console.log(doubleNumber)
+
+    console.log('a')
+
+    setTimeout(() => {
+      console.log('b')
+    }, 3000)
+
+    console.log('c')
+  </script>
+</body>
+</html>

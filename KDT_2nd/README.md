@@ -420,9 +420,38 @@
 * Django 교육 3일차
   * Django - Django template
 
+<br>
+
 ### [23.3.23. Thu] - Day 60
 * Django 교육 4일차
   * Django - Django URLs
+
+<br>
+
+### [23.3.24. Fri] - Day 61
+* Django 교육 5일차
+  * Django - Django Model
+
+<br>
+
+## Week 14
+
+### [23.3.28. Tue] - Day 62
+* Django 교육 6일차
+  * Django - Django ORM
+
+<br>
+
+### [23.3.29. Wed] - Day 63
+* Django 교육 7일차
+  * Django - Django ORM
+  * Django - ORM with view
+
+<br>
+
+### [23.3.30. Thu] - Day 64
+* Django 교육 8일차
+  * Django - ORM with view
 
 
 <br>

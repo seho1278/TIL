@@ -88,7 +88,7 @@
 #     print(S)
 
 
-# 1417번 국회의원 선거
+# 1417번 국회의원 선거(다시 풀어보기)
 import heapq
 N = int(input())
 win = int(input())
@@ -108,3 +108,4 @@ while nums:
         heapq.heappush(nums, (-num, num))
 
 print(cnt)
+

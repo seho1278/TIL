@@ -453,6 +453,18 @@
 * Django 교육 8일차
   * Django - ORM with view
 
+<br>
+
+### [23.3.31. Fri] - Day 65
+* 페어 프로그래밍
+
+## Week 15
+
+### [23.4.3. Mon] - Day 66
+* Django 교육 9일차
+  * Django - Django Form
+  * Django - Django Handing http requests
+
 
 <br>
 

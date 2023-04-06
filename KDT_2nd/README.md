@@ -458,6 +458,8 @@
 ### [23.3.31. Fri] - Day 65
 * 페어 프로그래밍
 
+<br>
+
 ## Week 15
 
 ### [23.4.3. Mon] - Day 66
@@ -465,6 +467,23 @@
   * Django - Django Form
   * Django - Django Handing http requests
 
+<br>
+
+### [23.4.4. Tue] - Day 67
+* Django 교육 10일차
+  * Django - Cookie and Session
+  * Django - Authentication System 1
+
+<br>
+
+### [23.4.5. Wed] - Day 68
+* Django 교육 11일차
+  * Django - Authentication System 2
+
+<br>
+
+### [23.4.6. Thu] - Day 69
+* 페어 프로그래밍
 
 <br>
 

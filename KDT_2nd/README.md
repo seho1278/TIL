@@ -27,6 +27,12 @@
 
 13. [Week 13](#week-13)
 
+14. [Week 14](#week-14)
+
+15. [Week 15](#week-15)
+
+16. [Week 16](#week-16)
+
 ---
 <br>
 
@@ -497,6 +503,43 @@
 ### [23.4.10. Mon] - Day 71
 * Django 교육 12일차
   * Django - static files
+
+<br>
+
+### [23.4.11. Tue] - Day 72
+* Django 교육 13일차
+  * Django - Many to one relationships
+
+<br>
+
+### [23.4.12. Wed] - Day 73
+* Django 교육 14일차
+  * Django - Many to one relationships
+
+<br>
+
+### [23.4.13. Thu] - Day 74
+* 페어 프로그래밍
+
+<br>
+
+### [23.4.14. Fri] - Day 75
+* 페어 프로그래밍
+
+<br>
+
+## Week 16
+
+### [23.4.17. Mon] - Day 76
+* Django 교육 15일차
+  * Django - Many to many relationships
+
+<br>
+
+### [23.4.18. Tue] - Day 77
+* Django 교육 16일차
+  * Django - Fixtures
+  * Django - Many to many relationships
 
 <br>
 

@@ -1175,8 +1175,62 @@
         
 
 # 20205번 교수님 그림이 깨지는데요?
-N, K = map(int, input().split())
+# N, K = map(int, input().split())
 
-matrix = [[0] * K for _ in range(N)]
+# matrix = [[0] * K for _ in range(N)]
 
-print(matrix)
+# print(matrix)
+
+
+# 3058번 짝수를 찾아라
+
+# N = int(input())
+
+# for i in range(N):
+#     result = []
+#     L = list(map(int, input().split()))
+#     for j in L:
+#         if j % 2 == 0:
+#             result.append(j)
+#     print(sum(result), min(result), sep=' ')
+
+
+# 2501번 약수 구하기
+
+# N, K = map(int, input().split())
+
+# result = []
+
+# for i in range(1, N+1):
+#     if N % i == 0:
+#         result.append(i)
+        
+# if len(result) < K:
+#     print(0)
+# else:
+#     print(result[K-1])
+
+
+# 1598 꼬리를 무는 숫자 나열
+
+# a, b = map(int, input().split())
+# a -= 1
+# b -= 1
+# x = divmod(a, 4)
+# y = divmod(b, 4)
+
+# row = abs(y[0] - x[0])
+# col = abs(y[1] - x[1])
+
+# print(row + col)
+
+
+# 2061번 좋은 암호
+N, L = map(int, input().split())
+
+for i in range(2, L):
+    if N % i == 0:
+        print('BAD', i)
+        break
+else:
+    print('GOOD')

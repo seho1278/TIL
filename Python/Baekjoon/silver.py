@@ -595,46 +595,47 @@
 # print(matrix2)
 
 # 1244번 스위치 켜고 끄기 (indexerror)
-sw = int(input())
-swl = list(map(int, input().split()))
-N = int(input())
-for i in range(N):
-    x, y = map(int, input().split())
+# sw = int(input())
+# swl = list(map(int, input().split()))
+# N = int(input())
+# for i in range(N):
+#     x, y = map(int, input().split())
 
-    if x == 1:
-        for i in range(y-1, sw, y):
-            if swl[i] == 1:
-                swl[i] = 0
-            else:
-                swl[i] = 1
+#     if x == 1:
+#         for i in range(y-1, sw, y):
+#             if swl[i] == 1:
+#                 swl[i] = 0
+#             else:
+#                 swl[i] = 1
     
-    else:
-        cnt = 0
-        for j in range(1, y):
-            if swl[y-1-j] == swl[y-1+j]:
-                cnt += 1
-                continue
-            else:
-                break
+#     else:
+#         cnt = 0
+#         for j in range(1, y):
+#             if swl[y-1-j] == swl[y-1+j]:
+#                 cnt += 1
+#                 continue
+#             else:
+#                 break
 
-        for k in range(y-1-cnt, y+cnt):
-            if swl[k] == 1:
-                swl[k] = 0
-            else:
-                swl[k] = 1
+#         for k in range(y-1-cnt, y+cnt):
+#             if swl[k] == 1:
+#                 swl[k] = 0
+#             else:
+#                 swl[k] = 1
 
-cnt2 = 0
+# cnt2 = 0
 
-while cnt2 != len(swl):
-    result = []
-    if len(swl) - cnt2 >= 20:
-        for l in range(cnt2, 20):
-            cnt2 += 1
-            result.append(swl[l])
-    else:
-        for m in range(cnt2, len(swl)):
-            cnt2 += 1
-            result.append(swl[m])
+# while cnt2 != len(swl):
+#     result = []
+#     if len(swl) - cnt2 >= 20:
+#         for l in range(cnt2, 20):
+#             cnt2 += 1
+#             result.append(swl[l])
+#     else:
+#         for m in range(cnt2, len(swl)):
+#             cnt2 += 1
+#             result.append(swl[m])
 
-    print(*result)
-    
+#     print(*result)
+
+

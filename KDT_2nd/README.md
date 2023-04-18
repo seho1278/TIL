@@ -487,6 +487,19 @@
 
 <br>
 
+### [23.4.7. Fri] - Day 70
+* 페어 프로그래밍
+
+<br>
+
+## Week 15
+
+### [23.4.10. Mon] - Day 71
+* Django 교육 12일차
+  * Django - static files
+
+<br>
+
 <br>
 
 <br>

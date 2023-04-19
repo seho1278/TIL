@@ -1226,11 +1226,31 @@
 
 
 # 2061번 좋은 암호
-N, L = map(int, input().split())
+# N, L = map(int, input().split())
 
-for i in range(2, L):
-    if N % i == 0:
-        print('BAD', i)
-        break
-else:
-    print('GOOD')
+# for i in range(2, L):
+#     if N % i == 0:
+#         print('BAD', i)
+#         break
+# else:
+#     print('GOOD')
+
+
+# 3059 등장하지 않는 문자의 합
+T = int(input())
+
+list_ = []
+for i in range(65, 91):
+    list_.append(chr(i))
+
+for j in range(T):
+    S = list(input())
+    list_2 = []
+    cnt = 0
+    for m in list_:
+        if m not in S:
+            list_2.append(m)
+    for k in list_2:
+        cnt += ord(k)
+        
+    print(cnt)

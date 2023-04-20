@@ -543,6 +543,19 @@
 
 <br>
 
+### [23.4.19. Wed] - Day 78
+* Django 교육 17일차
+  * Django - Improve query
+  * Django - django with Ajax
+
+<br>
+
+### [23.4.20. Thu] - Day 79
+* Django 교육 18일차
+  * 페어 프로그래밍
+
+<br>
+
 <br>
 
 <br>

@@ -1237,20 +1237,50 @@
 
 
 # 3059 등장하지 않는 문자의 합
-T = int(input())
+# T = int(input())
 
-list_ = []
-for i in range(65, 91):
-    list_.append(chr(i))
+# list_ = []
+# for i in range(65, 91):
+#     list_.append(chr(i))
 
-for j in range(T):
-    S = list(input())
-    list_2 = []
-    cnt = 0
-    for m in list_:
-        if m not in S:
-            list_2.append(m)
-    for k in list_2:
-        cnt += ord(k)
+# for j in range(T):
+#     S = list(input())
+#     list_2 = []
+#     cnt = 0
+#     for m in list_:
+#         if m not in S:
+#             list_2.append(m)
+#     for k in list_2:
+#         cnt += ord(k)
         
-    print(cnt)
+#     print(cnt)
+
+
+# 2530번 인공지능 시계
+# A, B, C = map(int, input().split())
+# D = int(input())
+# C = C + D
+
+# if C >= 60:
+#     x = C % 60
+#     y = C // 60
+#     C = x
+#     B = B + y
+
+# if B >= 60:
+#     x = B % 60
+#     y = B // 60
+#     B = x
+#     A = A + y
+
+# if A >= 24:
+#     A = A % 24
+
+# print(A, B, C)
+
+
+X = int(input())
+Y = list(map(int, input().split()))
+
+print(Y.count(X))
+    

@@ -33,6 +33,8 @@
 
 16. [Week 16](#week-16)
 
+17. [Week 17](#week-17)
+
 ---
 <br>
 
@@ -551,8 +553,26 @@
 <br>
 
 ### [23.4.20. Thu] - Day 79
-* Django 교육 18일차
   * 페어 프로그래밍
+
+<br>
+
+### [23.4.20. Thu] - Day 79
+  * 페어 프로그래밍
+
+<br>
+
+## Week 17
+
+### [23.4.24. Mon] - Day 80
+* Django 교육 18일차
+  * Django - Django rest framework
+
+<br>
+
+### [23.4.25. Tue] - Day 81
+* Django 교육 19일차
+  * Django - Django rest framework
 
 <br>
 

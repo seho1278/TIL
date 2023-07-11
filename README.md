@@ -1,24 +1,8 @@
 # Today I Learned
 
-* [Update](/Update/README.md/#update)
+## 1day 1commit !
 
----
-
-* [KDT_2nd 교육](/KDT_2nd/README.md/#kdt_2nd-education-program)
-
----
-
-* [java](/Java/README.md)
-
-* [Python](/Python/README.md)
-
-* Spring
-
-* Linux
-
-* [MySQL](/MySQL/README.md)
-
-* [HTML/CSS](/HTML/)
+* [Today Learning](/TIL/README.md)
 
 ---
 
@@ -27,3 +11,9 @@
 * [Markdown](/KDT_2nd/KDT_Study/markdown.md)
 
 * [CLI](/KDT_2nd/KDT_Study/CLI.md)
+ 
+* [Python](/Python/README.md)
+
+* [MySQL](/MySQL/README.md)
+
+* [HTML/CSS](/HTML/)

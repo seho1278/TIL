@@ -2,7 +2,7 @@
 
 ## 1day 1commit !
 
-* [Today Learning](/TIL/README.md)
+* [Today Commit](/TIL/README.md)
 
 ---
 

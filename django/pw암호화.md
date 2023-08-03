@@ -25,3 +25,23 @@ hashed_password = make_password(raw_password)
 
 
 ## check_password
+- 'check_password'는 사용자가 입력한 비밀번호와 DB에 저장된 해시된 비밀번호를 비교하여 일치 여부를 확인하는 함수다.
+- 주로 django 인증 시스템과 함께 사용되어 사용자가 로그인 시 올바른 비밀번호를 입력했는지를 검증하는데 사용된다.
+
+- 'check_password' 함수를 사용하려면 먼저 Django의 'django.contrib.auth'모듈에서 해당 함수를 가져와야 한다.
+```python
+from django.contrib.auth.hashers import check_password
+
+raw_password = 'user_input_password'
+hashed_password_from_db = 'hashed_password_stored_in_database'
+
+password_match = check_password(raw_password, hashed_password_from_db)
+# 사용자가 입력한 비밀번호(raw_password)와 DB에 해시되어 저장된 비밀번호(hashed_password_from_db)를 인자로 전달
+
+# 두 비밀번호가 일칳하면 'True'를 반환, 불일치시 'False'를 반환
+```
+
+<br>
+
+- 이를 통해 로그인 시 사용자가 올바른 비밀번호를 입력했는지를 확인하여 인증 과정에서 보안성을 강화할 수 있다.
+- 'check_password'함수는 사용자 비밀번호의 해시와 입력된 비밀번호를 비교해야하기 때문에 사용자에게 잘못된 비밀번호를 제공해도 정확한 비밀번호인지 여부를 알 수 없기 때문에 사용자 비밀번호를 안전하게 보호할 수 있다.

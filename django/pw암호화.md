@@ -21,8 +21,7 @@ hashed_password = make_password(raw_password)
 
 - Django의 인증 시스템은 make_password함수와 함께 해시된 비밀번호를 저장하고, 사용자가 로그인할 때 비밀번호를 동일하게 해싱하여 저장된 해시와 비교한다.
 
-
-
+<br>
 
 ## check_password
 - 'check_password'는 사용자가 입력한 비밀번호와 DB에 저장된 해시된 비밀번호를 비교하여 일치 여부를 확인하는 함수다.

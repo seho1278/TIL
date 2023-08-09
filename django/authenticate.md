@@ -16,4 +16,11 @@ user = authenticate(request, username=None, password=None)
 - authenticate() 함수는 두가지 결과를 반환할 수 있다.
   - 유효한 자격 증명일 경우 사용자 객체를 반환한다. 이 객체는 'django.contrib.auth.models.User' 클래스의 인스턴스로 인증된 사용자에 대한 정보를 포함한다.
   - 유효하지 않은 자격 증명일 경우: 'None'을 반환한다. 이 경우 사용자가 인증되지 않았다는 것을 나타낸다.
-  
+
+<br>
+
+<br>
+
+<br>
+
+### [위로](#authenticate) / [뒤로](/django/README.md)

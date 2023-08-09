@@ -90,3 +90,11 @@ urlpatterns = [
       </form>
     </div>
 ```
+
+<br>
+
+<br>
+
+<br>
+
+### [위로](#search-기능-구현하기) / [뒤로](/django/README.md)

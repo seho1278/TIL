@@ -58,3 +58,11 @@ STATIC_ROOT = '/path/to/your/static/folder/'    # 모든 정적 파일들이 복
 <br>
 
 * 주의할 점은 명령을 실행하기 전 각 앱의 static 디렉토리와 설정 파일의 STATIC_ROOT 경로를 적절하게 설정해야 한다.
+
+<br>
+
+<br>
+
+<br>
+
+### [위로](#static-files) / [뒤로](/django/README.md)

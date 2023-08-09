@@ -79,3 +79,11 @@ def index(request):
   font-size: 20px;
 }
 ```
+
+<br>
+
+<br>
+
+<br>
+
+### [위로](#pagination) / [뒤로](/django/README.md)

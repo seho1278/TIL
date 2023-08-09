@@ -44,3 +44,11 @@ password_match = check_password(raw_password, hashed_password_from_db)
 
 - 이를 통해 로그인 시 사용자가 올바른 비밀번호를 입력했는지를 확인하여 인증 과정에서 보안성을 강화할 수 있다.
 - 'check_password'함수는 사용자 비밀번호의 해시와 입력된 비밀번호를 비교해야하기 때문에 사용자에게 잘못된 비밀번호를 제공해도 정확한 비밀번호인지 여부를 알 수 없기 때문에 사용자 비밀번호를 안전하게 보호할 수 있다.
+
+<br>
+
+<br>
+
+<br>
+
+### [위로](#pw-암호화) / [뒤로](/django/README.md)

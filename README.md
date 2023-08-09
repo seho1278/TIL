@@ -1,11 +1,5 @@
 # Today I Learned
 
-## 1day 1commit !
-
-* [Today Commit](/TIL/README.md)
-
----
-
 * [Git](/KDT_2nd/KDT_Study/git.md)
 
 * [Markdown](/KDT_2nd/KDT_Study/markdown.md)
@@ -13,6 +7,8 @@
 * [CLI](/KDT_2nd/KDT_Study/CLI.md)
  
 * [Python](/Python/README.md)
+
+* [Django](/django/README.md)
 
 * [MySQL](/MySQL/README.md)
 

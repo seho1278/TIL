@@ -36,6 +36,12 @@ template.html
 <link href="{% static 'bootstrap-icons/font/bootstrap-icons.css' %}" rel="stylesheet">
 ...
 
-
-
 ```
+
+<br>
+
+<br>
+
+<br>
+
+### [위로](#django에서-npm으로-bootstrap_icon-관리하기) / [뒤로](/django/README.md)

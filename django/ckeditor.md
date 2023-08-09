@@ -73,3 +73,10 @@ python manage.py migrate
 
 - 패키지 버전, 의존성, 변경 사항 등이 변경될 수 있으므로, 공식 문서나 GitHub 저장소 등을 참고하여 해당 버전에 맞게 진행하는 것이 좋다.
 
+<br>
+
+<br>
+
+<br>
+
+### [위로](#ckeditor-적용) / [뒤로](/django/README.md)

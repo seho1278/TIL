@@ -53,3 +53,11 @@ pip freeze > requirements.txt
 ```
 pip install -r requirements.txt
 ```
+
+<br>
+
+<br>
+
+<br>
+
+### [위로](#django-명령어) / [뒤로](/django/README.md)

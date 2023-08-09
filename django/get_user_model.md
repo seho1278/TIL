@@ -19,3 +19,11 @@ User = get_user_model()
 # settings.py
 AUTH_USER_MODEL = 'myapp.CustomUser'  # 앱 이름과 함께 커스텀 사용자 모델 지정
 ```
+
+<br>
+
+<br>
+
+<br>
+
+### [위로](#get_user_model) / [뒤로](/django/README.md)

@@ -1,5 +1,7 @@
 # CLI
 
+* [CLI](/CLI/cli.md)
+
 <br>
 
 <br>

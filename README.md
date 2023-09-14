@@ -2,15 +2,15 @@
 
 ## Git
 
-* [Git](/Git/README.md)
+* [Git 개념 정리](/git/git.md)
 
 ## Markdown
 
-* [Markdown](/Markdown/README.md)
+* [마크다운 문법](/Markdown/markdown.md)
 
 ## CLI
 
-* [CLI](/CLI/README.md)
+* [CLI 개념 정리](/CLI/cli.md)
 
 ## Python
  
@@ -19,11 +19,23 @@
 
 ## Django
 
-* [Django](/django/README.md)
+* [개발 환경 설정 가이드](/django/guide.md)
+* [Django 명령어](/django/command.md)
+* [서버의 이해](/django/server.md)
+* [Static Files](/django/static_files.md)
+* [Django에서 npm으로 bootstrap_icon 관리하기](/django/bootstrap_icon.md)
+* [CKEditor 적용](/django/ckeditor.md)
+* [models](/django/models.md)
+* [get_user_model](/django/get_user_model.md)
+* [authenticate](/django/authenticate.md)
+* [pw 암호화](/django/pw암호화.md)
+* [검색 기능 구현하기](/django/search.md)
+* [페이지네이션 기능 구현하기](/django/pagination.md)
 
 ## MySQL
 
-* [MySQL](/MySQL/README.md)
+* [관계형 데이터베이스 용어](/MySQL/KDT/the_relation.md)
+* [Workbench 활용 MySQL 접속 방법](/MySQL/KDT/Workbench.md)
 
 ## HTML
 

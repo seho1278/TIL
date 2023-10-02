@@ -51,3 +51,16 @@
 
 ### 호스트와 바인딩된 포트만 확인하는 명령어
 - docker port [컨테이너 이름]
+
+### Detached 모드 실행
+- docker run -d ...
+  * 컨테이너를 백그라운드에서 동작하는 애플리케이션으로 실행하도록 설정
+
+### 컨테이너 내부 환경변수 설정
+- docker run ... -e MYSQL_ROOT_PASSWORD=password ...
+  * 예시로 mysql 컨테이너를 생성할 때 설정한 -e 옵션의 값을 살펴보면 mysql 컨테이너의 환경변수로 어떤 것이 설정됐는지 알 수 있다.
+
+### 컨테이너 내부 셸 확인
+- docker exec [컨테이너 이름] /bin/bash
+  * Detached 모드로 생성한 경우 attach 명령어를 쓰는 것은 의미가 없기 때문에 exec 명령어를 이용하면 컨테이너 내부의 셸을 사용할 수 있다.
+  * 컨테이너 내부 확인 명령어 : docker exec [컨테이너 이름] ls

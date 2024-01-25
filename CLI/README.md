@@ -1,6 +1,6 @@
 # CLI
 
-* [CLI](/CLI/cli.md)
+* [CLI 개념 정리](/CLI/cli.md)
 
 <br>
 

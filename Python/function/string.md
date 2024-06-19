@@ -20,3 +20,11 @@
 
 ### count()
 - 문자열 내 해당 문자열의 갯수를 출력
+
+<br>
+
+<br>
+
+<br>
+
+### [위로](#) / [뒤로](/Python/function/README.md/#)

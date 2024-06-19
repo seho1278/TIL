@@ -79,4 +79,4 @@ python manage.py migrate
 
 <br>
 
-### [위로](#ckeditor-적용) / [뒤로](/django/README.md)
+### [위로](#ckeditor-적용) / [뒤로](/README.md/#)

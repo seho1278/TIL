@@ -60,4 +60,4 @@ pip install -r requirements.txt
 
 <br>
 
-### [위로](#django-명령어) / [뒤로](/django/README.md)
+### [위로](#django-명령어) / [뒤로](/README.md/#)

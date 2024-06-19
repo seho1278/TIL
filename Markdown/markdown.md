@@ -128,9 +128,26 @@ print('hello')
 * 3개 이상의 `Asterisk(*) , Hyphen(---), Underscores(_)`을 사용한다.
 
 ### **적용 예시**
+
 ---
 ***
 ___
+
+<br>
+
+## **10. Sort : 정렬**
+
+* 마크다운 문법은 가운데 정렬만 지원 나머지는 css를 통해 정렬한다.
+
+```
+<center>가운데</center>
+<div style="text-align: right">오른쪽</div>
+```
+
+### **적용 예시**
+<center>가운데</center>
+<div style="text-align: right">오른쪽</div>
+
 
 <br>
 

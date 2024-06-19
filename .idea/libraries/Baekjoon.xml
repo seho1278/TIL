@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="Baekjoon">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Python/Baekjoon/day7.zip!/" />
+      <root url="jar://$PROJECT_DIR$/Python/Baekjoon/day8.zip!/" />
+      <root url="jar://$PROJECT_DIR$/Python/Baekjoon/day10.zip!/" />
+      <root url="jar://$PROJECT_DIR$/Python/Baekjoon/day11.zip!/" />
+      <root url="jar://$PROJECT_DIR$/Python/Baekjoon/day5.zip!/" />
+      <root url="jar://$PROJECT_DIR$/Python/Baekjoon/day12.zip!/" />
+      <root url="jar://$PROJECT_DIR$/Python/Baekjoon/day6.zip!/" />
+      <root url="jar://$PROJECT_DIR$/Python/Baekjoon/day9.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="HTML">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/HTML/day7.zip!/" />
+      <root url="jar://$PROJECT_DIR$/HTML/day5.zip!/" />
+      <root url="jar://$PROJECT_DIR$/HTML/day6.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

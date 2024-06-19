@@ -44,4 +44,4 @@ template.html
 
 <br>
 
-### [위로](#django에서-npm으로-bootstrap_icon-관리하기) / [뒤로](/django/README.md)
+### [위로](#django에서-npm으로-bootstrap_icon-관리하기) / [뒤로](/README.md/#)

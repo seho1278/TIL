@@ -51,4 +51,4 @@ password_match = check_password(raw_password, hashed_password_from_db)
 
 <br>
 
-### [위로](#pw-암호화) / [뒤로](/django/README.md)
+### [위로](#pw-암호화) / [뒤로](/README.md/#)

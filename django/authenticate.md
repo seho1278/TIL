@@ -23,4 +23,4 @@ user = authenticate(request, username=None, password=None)
 
 <br>
 
-### [위로](#authenticate) / [뒤로](/django/README.md)
+### [위로](#authenticate) / [뒤로](/README.md/#)

@@ -65,4 +65,4 @@ STATIC_ROOT = '/path/to/your/static/folder/'    # 모든 정적 파일들이 복
 
 <br>
 
-### [위로](#static-files) / [뒤로](/django/README.md)
+### [위로](#static-files) / [뒤로](/README.md/#)

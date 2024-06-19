@@ -27,3 +27,12 @@ nums = [6, 2, 1, 4, 5, 3]
 for num in nums:
   heapq.heappush(heap, (-num, num))
 ```
+
+
+<br>
+
+<br>
+
+<br>
+
+### [위로](#) / [뒤로](/Python/module/README.md/#)

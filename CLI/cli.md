@@ -44,4 +44,4 @@ $
 
 <br>
 
-### [위로](#cli) / [뒤로](/CLI/README.md)
+### [위로](#cli) / [뒤로](/README.md)

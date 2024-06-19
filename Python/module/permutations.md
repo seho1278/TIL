@@ -22,3 +22,12 @@ for P in permutaions(A, 2):
 # (2, 3)
 
 ```
+
+
+<br>
+
+<br>
+
+<br>
+
+### [위로](#) / [뒤로](/Python/module/README.md/#)

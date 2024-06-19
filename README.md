@@ -1,4 +1,4 @@
-# Today I Learned(정리중)
+# Today I Learned
 
 ## Git
 
@@ -12,10 +12,22 @@
 
 * [CLI 개념 정리](/CLI/cli.md)
 
+## 자료구조
+
+## 알고리즘
+
+## Java
+
+## Spring
+
 ## Python
  
-* [Python](/Python/README.md)
-* [Python을 이용한 업무효율화]()
+* [Function 정리](/Python/function/README.md)
+* [Module 정리](/Python/module/README.md)
+* [Graph](/Python/study/graph.md)
+* [Try](/Python/module/try.md)
+
+[//]: # (* [Python을 이용한 업무효율화]&#40;&#41;)
 
 ## Django
 
@@ -54,5 +66,3 @@
 * [Docker 명령어 정리](/Docker/Docker명령어.md)
 
 ## ETC
-
-## 일일 학습내용 정리

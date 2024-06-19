@@ -188,4 +188,4 @@ except MyError:      # 오류발생시 수행하도록 설정
 
 <br>
 
-### [위로](#try-except문) / [뒤로](/Python/README.md)
+### [위로](#) / [뒤로](/README.md/#)

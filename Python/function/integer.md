@@ -17,3 +17,11 @@ B = "10-99*10"
 print(eval(A)) # 1
 print(eval(B)) # -980
 ```
+
+<br>
+
+<br>
+
+<br>
+
+### [위로](#) / [뒤로](/Python/function/README.md/#)

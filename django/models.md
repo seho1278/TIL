@@ -25,4 +25,4 @@
 
 <br>
 
-### [위로](#models) / [뒤로](/django/README.md)
+### [위로](#models) / [뒤로](/README.md/#)

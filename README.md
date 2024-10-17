@@ -16,6 +16,10 @@
 
 ## 알고리즘
 
+## 컴퓨터 공학
+### 운영체제
+* [커널과 쉘](/Computer_Science/OS/kernel_shell.md)
+
 ## Java
 
 ## Spring

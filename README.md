@@ -15,15 +15,20 @@
 ## 자료구조
 
 ## 알고리즘
+* [백트래킹](/Algorism/Backtracking.md)
 
 ## 컴퓨터 공학
 ### 운영체제
 * [커널과 쉘](/Computer_Science/OS/kernel_shell.md)
+* [운영체제의 역할](/Computer_Science/OS/OS.md)
 
 ## Java
 
 ## Spring
 * [제어역전(IoC)](/Spring/IoC.md)
+* [관점지향 프로그래밍(AOP)](/Spring/AOP.md)
+* [의존성 주입(DI)](/Spring/DI.md)
+* [스프링 프레임워크 vs 스프링 부트](/Spring/SpringAndSpringBoot.md)
 
 ## Python
  
